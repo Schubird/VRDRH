@@ -290,7 +290,9 @@ PlayerSettings:
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
-    m_Devices: []
+    m_Devices:
+    - None
+    - OpenVR
   - m_BuildTarget: Metro
     m_Enabled: 1
     m_Devices:
