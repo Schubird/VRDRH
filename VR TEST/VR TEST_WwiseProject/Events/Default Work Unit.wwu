@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pinged" ID="{69BD9029-2A51-4D83-AD63-3EFC03EF9960}">
+					<ChildrenList>
+						<Action Name="" ID="{2A800221-CB3D-4DA6-973B-06A68BE4FA35}" ShortID="548900392">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PING PONG BALL BOUNCE SINGLE 01" ID="{56A8FBAA-5BB3-4CB9-B095-E5C2944D25E9}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dinged" ID="{66174532-D583-4462-9316-4EB8CE871350}">
+					<ChildrenList>
+						<Action Name="" ID="{FBF307EC-25B5-4FDB-BBEA-420ADDFE69CB}" ShortID="716302293">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="triangle 01 single hit" ID="{14F9FA53-C860-4ACC-AE73-4B8B59ED4CDD}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -51,6 +51,7 @@ namespace VRTK
             Vector3 basePosition = base.GetNewPosition(tipPosition, target, returnOriginalPosition);
             if (!returnOriginalPosition)
             {
+                AkSoundEngine.PostEvent("TP_Pointer", gameObject); 
                 basePosition.y = GetTeleportY(target, tipPosition);
             }
             return basePosition;

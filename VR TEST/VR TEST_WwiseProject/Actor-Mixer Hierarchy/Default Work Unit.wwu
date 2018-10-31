@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09C0C991-B4F6-4753-9879-281633C172F4}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{09C0C991-B4F6-4753-9879-281633C172F4}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Teleporter" ID="{D308EF96-5101-40DD-AEA4-0681F7271018}" ShortID="146478028">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="PING PONG BALL BOUNCE SINGLE 01" ID="{56A8FBAA-5BB3-4CB9-B095-E5C2944D25E9}" ShortID="243759463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="PING PONG BALL BOUNCE SINGLE 01" ID="{134A3C77-6C28-44AD-B747-7B8A43C79014}" ShortID="800638747">
+									<Language>SFX</Language>
+									<AudioFile>PING PONG BALL BOUNCE SINGLE 01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="PING PONG BALL BOUNCE SINGLE 01" ID="{134A3C77-6C28-44AD-B747-7B8A43C79014}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="triangle 01 single hit" ID="{14F9FA53-C860-4ACC-AE73-4B8B59ED4CDD}" ShortID="659678316">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="triangle 01 single hit" ID="{E39DD491-7ED5-4D5F-B5A1-80F6361F3969}" ShortID="929192944">
+									<Language>SFX</Language>
+									<AudioFile>triangle 01 single hit.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="triangle 01 single hit" ID="{E39DD491-7ED5-4D5F-B5A1-80F6361F3969}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
