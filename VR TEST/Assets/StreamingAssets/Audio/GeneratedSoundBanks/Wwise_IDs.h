@@ -13,7 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PINGED = 1433139222U;
+        static const AkUniqueID PLAY_HORN = 2956245481U;
+        static const AkUniqueID PLAY_MELODY = 361532258U;
+        static const AkUniqueID PLAY_SYNTH = 1710256744U;
+        static const AkUniqueID PLAY_VOICE = 1642680936U;
+        static const AkUniqueID TP_POINTER = 997713407U;
+        static const AkUniqueID TP_RELEASE = 14387939U;
     } // namespace EVENTS
 
     namespace BANKS

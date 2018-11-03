@@ -1,6 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1433139222	Pinged			\Default Work Unit\Pinged	
+	14387939	TP_Release			\Default Work Unit\TP_Release	
+	361532258	Play_melody			\Default Work Unit\Play_melody	
+	997713407	TP_Pointer			\Default Work Unit\TP_Pointer	
+	1642680936	Play_voice			\Default Work Unit\Play_voice	
+	1710256744	Play_synth			\Default Work Unit\Play_synth	
+	2956245481	Play_Horn			\Default Work Unit\Play_Horn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	800638747	PING PONG BALL BOUNCE SINGLE 01	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\PING PONG BALL BOUNCE SINGLE 01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\PING PONG BALL BOUNCE SINGLE 01		35460
+	222967925	melody	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\melody_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\melody		9768700
+	238061331	Horn	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\Horn_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\Horn		9768700
+	332421358	synth	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\synth_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\synth		9768700
+	420345465	voice	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\voice_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\voice		9768700
+	800638747	PING PONG BALL BOUNCE SINGLE 01	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\PING PONG BALL BOUNCE SINGLE 01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleporter\PING PONG BALL BOUNCE SINGLE 01		35460
+	929192944	triangle 01 single hit	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\triangle 01 single hit_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleporter\triangle 01 single hit		857776
 

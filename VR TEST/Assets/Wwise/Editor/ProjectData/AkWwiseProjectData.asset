@@ -27,23 +27,92 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a7d0d516e669774e9c478cc11182e320
-    m_lastTime: -8586606376683805642
-    List: []
+    m_lastTime: -8586605818464467310
+    List:
+    - name: Main
+      guid: b4cf986e0f254a409e3c1717eb4e9ffd
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cb8bb9a60cd2684cb88b555e656bae51
-    m_lastTime: -8586606366586624606
+    m_lastTime: -8586605818464377357
     List:
-    - name: Pinged
-      guid: 2990bd69512a834dad633efc03ef9960
-      id: 1433139222
+    - name: Play_Horn
+      guid: 46c2ab1b2293914b9dd7ebdcdef6a027
+      id: 2956245481
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Pinged
+      - ElementName: Play_Horn
         ObjectType: 3
-      Path: Default Work Unit\Pinged
+      Path: Default Work Unit\Play_Horn
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_melody
+      guid: c2b1554f3b55224e91eab2a3863ebc72
+      id: 361532258
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_melody
+        ObjectType: 3
+      Path: Default Work Unit\Play_melody
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_synth
+      guid: 6c58731eda4cc0448643a3500a2d504e
+      id: 1710256744
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_synth
+        ObjectType: 3
+      Path: Default Work Unit\Play_synth
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_voice
+      guid: cf8324d9ecc2d44ebf3d90bd82b5ed68
+      id: 1642680936
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_voice
+        ObjectType: 3
+      Path: Default Work Unit\Play_voice
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: TP_Pointer
+      guid: 3245176683d5624493164eb8ce871350
+      id: 997713407
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TP_Pointer
+        ObjectType: 3
+      Path: Default Work Unit\TP_Pointer
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: TP_Release
+      guid: 2990bd69512a834dad633efc03ef9960
+      id: 14387939
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TP_Release
+        ObjectType: 3
+      Path: Default Work Unit\TP_Release
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -73,5 +142,7 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
+  - /VR TEST_WwiseProject/Events
+  - /VR TEST_WwiseProject/Events/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

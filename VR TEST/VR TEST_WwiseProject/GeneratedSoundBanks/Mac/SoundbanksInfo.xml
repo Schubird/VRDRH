@@ -21,12 +21,37 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1433139222" Name="Pinged" ObjectPath="\Events\Default Work Unit\Pinged"/>
+				<Event Id="2956245481" Name="Play_Horn" ObjectPath="\Events\Default Work Unit\Play_Horn" MaxAttenuation="100.000000"/>
+				<Event Id="361532258" Name="Play_melody" ObjectPath="\Events\Default Work Unit\Play_melody" MaxAttenuation="100.000000"/>
+				<Event Id="1710256744" Name="Play_synth" ObjectPath="\Events\Default Work Unit\Play_synth" MaxAttenuation="100.000000"/>
+				<Event Id="1642680936" Name="Play_voice" ObjectPath="\Events\Default Work Unit\Play_voice" MaxAttenuation="100.000000"/>
+				<Event Id="997713407" Name="TP_Pointer" ObjectPath="\Events\Default Work Unit\TP_Pointer"/>
+				<Event Id="14387939" Name="TP_Release" ObjectPath="\Events\Default Work Unit\TP_Release"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="222967925" Language="SFX">
+					<ShortName>melody.wav</ShortName>
+					<Path>SFX\melody_8956FC97.wem</Path>
+				</File>
+				<File Id="238061331" Language="SFX">
+					<ShortName>Horn.wav</ShortName>
+					<Path>SFX\Horn_8956FC97.wem</Path>
+				</File>
+				<File Id="332421358" Language="SFX">
+					<ShortName>synth.wav</ShortName>
+					<Path>SFX\synth_8956FC97.wem</Path>
+				</File>
+				<File Id="420345465" Language="SFX">
+					<ShortName>voice.wav</ShortName>
+					<Path>SFX\voice_8956FC97.wem</Path>
+				</File>
 				<File Id="800638747" Language="SFX">
 					<ShortName>PING PONG BALL BOUNCE SINGLE 01.wav</ShortName>
 					<Path>SFX\PING PONG BALL BOUNCE SINGLE 01_56D34C19.wem</Path>
+				</File>
+				<File Id="929192944" Language="SFX">
+					<ShortName>triangle 01 single hit.wav</ShortName>
+					<Path>SFX\triangle 01 single hit_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
