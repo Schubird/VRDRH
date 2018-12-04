@@ -6,10 +6,14 @@
 				<SoundBank Name="Main" ID="{6E98CFB4-250F-404A-9E3C-1717EB4E9FFD}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_melody" ID="{F955EC23-5456-405C-8A28-4B9C5834D2BD}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_1st" ID="{03C7A849-5744-4236-8856-40943F560BA0}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TP_Pointer" ID="{66174532-D583-4462-9316-4EB8CE871350}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_synth" ID="{2BE73498-E2FA-4628-B47E-BCB8460DBBB9}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_4th" ID="{A26DB147-7176-4827-B208-2334984ACC44}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Horn" ID="{424A6B0D-B069-4999-8D1F-722179A625E7}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_2nd" ID="{BF88C33A-996B-4BBD-91F4-BC7DF82CD5ED}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="TP_Release" ID="{69BD9029-2A51-4D83-AD63-3EFC03EF9960}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_3rd" ID="{F42D1ECB-D022-4E1A-A804-492B9D6CEA8B}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_voice" ID="{E5C83E1F-F3FE-4E8C-8B96-3C12267FF00C}" WorkUnitID="{A6B98BCB-D20C-4C68-B88B-555E656BAE51}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

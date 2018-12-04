@@ -87,6 +87,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_1st" ID="{03C7A849-5744-4236-8856-40943F560BA0}">
+					<ChildrenList>
+						<Action Name="" ID="{AA63DBB6-094B-418B-8EC0-A5E10C224E9C}" ShortID="41411736">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1st" ID="{603302BE-C54C-40D7-B3BF-CB4AFFAA146F}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_2nd" ID="{BF88C33A-996B-4BBD-91F4-BC7DF82CD5ED}">
+					<ChildrenList>
+						<Action Name="" ID="{BA0F4918-AC06-4728-90AE-803A4FD83CC2}" ShortID="717979989">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="2nd" ID="{6CC60A4A-5452-488A-A47C-F6F0CFF8D2EF}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_3rd" ID="{F42D1ECB-D022-4E1A-A804-492B9D6CEA8B}">
+					<ChildrenList>
+						<Action Name="" ID="{4C6115B5-CFD3-4184-9986-E0CE9F8D2E1F}" ShortID="809083307">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3rd" ID="{C140F2B0-98DE-479B-B5F9-6B08983FCF03}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_4th" ID="{A26DB147-7176-4827-B208-2334984ACC44}">
+					<ChildrenList>
+						<Action Name="" ID="{90EBC226-4749-413D-A403-52158A7E1ED5}" ShortID="697873164">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="4th" ID="{CAF3DF01-405F-4139-973B-70724F1E1B8E}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

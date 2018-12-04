@@ -4,13 +4,21 @@ Event	ID	Name			Wwise Object Path	Notes
 	997713407	TP_Pointer			\Default Work Unit\TP_Pointer	
 	1642680936	Play_voice			\Default Work Unit\Play_voice	
 	1710256744	Play_synth			\Default Work Unit\Play_synth	
+	2446768418	Play_2nd			\Default Work Unit\Play_2nd	
+	2614147262	Play_4th			\Default Work Unit\Play_4th	
+	2665318902	Play_1st			\Default Work Unit\Play_1st	
+	2950244211	Play_3rd			\Default Work Unit\Play_3rd	
 	2956245481	Play_Horn			\Default Work Unit\Play_Horn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	216149999	4th	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\4th_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\4th		940864
 	222967925	melody	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\melody_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\melody		9768700
 	238061331	Horn	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\Horn_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\Horn		9768700
 	332421358	synth	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\synth_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\synth		9768700
+	376947852	2nd	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\2nd_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\2nd		940864
+	382106886	3rd	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\3rd_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\3rd		940864
 	420345465	voice	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\voice_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Temp_Music\voice		9768700
 	800638747	PING PONG BALL BOUNCE SINGLE 01	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\PING PONG BALL BOUNCE SINGLE 01_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleporter\PING PONG BALL BOUNCE SINGLE 01		35460
 	929192944	triangle 01 single hit	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\triangle 01 single hit_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Teleporter\triangle 01 single hit		857776
+	1036015635	1st	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\1st_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\1st		940864
 

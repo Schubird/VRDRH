@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_1ST = 2665318902U;
+        static const AkUniqueID PLAY_2ND = 2446768418U;
+        static const AkUniqueID PLAY_3RD = 2950244211U;
+        static const AkUniqueID PLAY_4TH = 2614147262U;
         static const AkUniqueID PLAY_HORN = 2956245481U;
         static const AkUniqueID PLAY_MELODY = 361532258U;
         static const AkUniqueID PLAY_SYNTH = 1710256744U;

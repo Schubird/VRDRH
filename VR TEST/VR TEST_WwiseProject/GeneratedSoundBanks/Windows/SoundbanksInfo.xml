@@ -21,6 +21,10 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2665318902" Name="Play_1st" ObjectPath="\Events\Default Work Unit\Play_1st" MaxAttenuation="35.000000"/>
+				<Event Id="2446768418" Name="Play_2nd" ObjectPath="\Events\Default Work Unit\Play_2nd" MaxAttenuation="35.000000"/>
+				<Event Id="2950244211" Name="Play_3rd" ObjectPath="\Events\Default Work Unit\Play_3rd" MaxAttenuation="35.000000"/>
+				<Event Id="2614147262" Name="Play_4th" ObjectPath="\Events\Default Work Unit\Play_4th" MaxAttenuation="35.000000"/>
 				<Event Id="2956245481" Name="Play_Horn" ObjectPath="\Events\Default Work Unit\Play_Horn" MaxAttenuation="100.000000"/>
 				<Event Id="361532258" Name="Play_melody" ObjectPath="\Events\Default Work Unit\Play_melody" MaxAttenuation="100.000000"/>
 				<Event Id="1710256744" Name="Play_synth" ObjectPath="\Events\Default Work Unit\Play_synth" MaxAttenuation="100.000000"/>
@@ -29,6 +33,10 @@
 				<Event Id="14387939" Name="TP_Release" ObjectPath="\Events\Default Work Unit\TP_Release"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="216149999" Language="SFX">
+					<ShortName>4th.wav</ShortName>
+					<Path>SFX\4th_8956FC97.wem</Path>
+				</File>
 				<File Id="222967925" Language="SFX">
 					<ShortName>melody.wav</ShortName>
 					<Path>SFX\melody_8956FC97.wem</Path>
@@ -41,6 +49,14 @@
 					<ShortName>synth.wav</ShortName>
 					<Path>SFX\synth_8956FC97.wem</Path>
 				</File>
+				<File Id="376947852" Language="SFX">
+					<ShortName>2nd.wav</ShortName>
+					<Path>SFX\2nd_8956FC97.wem</Path>
+				</File>
+				<File Id="382106886" Language="SFX">
+					<ShortName>3rd.wav</ShortName>
+					<Path>SFX\3rd_8956FC97.wem</Path>
+				</File>
 				<File Id="420345465" Language="SFX">
 					<ShortName>voice.wav</ShortName>
 					<Path>SFX\voice_8956FC97.wem</Path>
@@ -52,6 +68,10 @@
 				<File Id="929192944" Language="SFX">
 					<ShortName>triangle 01 single hit.wav</ShortName>
 					<Path>SFX\triangle 01 single hit_56D34C19.wem</Path>
+				</File>
+				<File Id="1036015635" Language="SFX">
+					<ShortName>1st.wav</ShortName>
+					<Path>SFX\1st_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

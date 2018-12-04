@@ -171,8 +171,126 @@
 								<ActiveSource Name="voice" ID="{65AE038E-FD7B-41CB-B040-7DFBEF55846D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<ActorMixer Name="Stage_Test" ID="{9AF048B3-C481-4D85-8804-06186DE5FB33}" ShortID="703052970">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
+				<Sound Name="2nd" ID="{6CC60A4A-5452-488A-A47C-F6F0CFF8D2EF}" ShortID="680460818">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Stage" ID="{F4A48873-A514-48ED-BB37-952EED757D14}" WorkUnitID="{55EA3A9F-941C-4136-B173-44734439B436}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="2nd" ID="{6A34497E-6CF7-4BC1-9C9F-DA4736C3326E}" ShortID="376947852">
+							<Language>SFX</Language>
+							<AudioFile>2nd.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="2nd" ID="{6A34497E-6CF7-4BC1-9C9F-DA4736C3326E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="3rd" ID="{C140F2B0-98DE-479B-B5F9-6B08983FCF03}" ShortID="868894284">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Stage" ID="{F4A48873-A514-48ED-BB37-952EED757D14}" WorkUnitID="{55EA3A9F-941C-4136-B173-44734439B436}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="3rd" ID="{DD611CB6-CA75-4662-828C-55D536651ED1}" ShortID="382106886">
+							<Language>SFX</Language>
+							<AudioFile>3rd.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="3rd" ID="{DD611CB6-CA75-4662-828C-55D536651ED1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="1st" ID="{603302BE-C54C-40D7-B3BF-CB4AFFAA146F}" ShortID="124904033">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Stage" ID="{F4A48873-A514-48ED-BB37-952EED757D14}" WorkUnitID="{55EA3A9F-941C-4136-B173-44734439B436}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="1st" ID="{56F29F7E-5A70-489A-8D87-2D224D41BFD7}" ShortID="1036015635">
+							<Language>SFX</Language>
+							<AudioFile>1st.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="1st" ID="{56F29F7E-5A70-489A-8D87-2D224D41BFD7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="4th" ID="{CAF3DF01-405F-4139-973B-70724F1E1B8E}" ShortID="71866048">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OverridePositioning" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Stage" ID="{F4A48873-A514-48ED-BB37-952EED757D14}" WorkUnitID="{55EA3A9F-941C-4136-B173-44734439B436}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="4th" ID="{E821DE07-FF9A-4E26-B847-C9530CBF49B9}" ShortID="216149999">
+							<Language>SFX</Language>
+							<AudioFile>4th.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="4th" ID="{E821DE07-FF9A-4E26-B847-C9530CBF49B9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
