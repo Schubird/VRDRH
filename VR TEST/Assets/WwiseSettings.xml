@@ -9,5 +9,5 @@
   <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>D:\Program Files\AudioKinetic</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../VR TEST_WwiseProject/VR TEST_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../VR TEST/VR TEST_WwiseProject/VR TEST_WwiseProject.wproj</WwiseProjectPath>
 </WwiseSettings>
