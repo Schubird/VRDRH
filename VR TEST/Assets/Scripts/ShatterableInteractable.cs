@@ -23,6 +23,8 @@ public class ShatterableInteractable : MonoBehaviour
     [SerializeField] private bool requireGrab = true;
     [Tooltip("Ungrab the object if it shattered.")]
     [SerializeField] private bool ungrabOnShatter = true;
+    [Tooltip("Enable Physics on scliceable when shatterd.")]
+    [SerializeField] private bool enablePhysicsOnShatter = true;
 
     private bool _isShattered = false;
 
@@ -69,17 +71,24 @@ public class ShatterableInteractable : MonoBehaviour
         {
             return;
         }
-        TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
-        _isShattered = true;
-
         if (ungrabOnShatter)
         {
             interactableObject.Ungrabbed();
         }
+        if (enablePhysicsOnShatter)
+        {
+            Rigidbody rb = sliceableObject.GetComponent<Rigidbody>();
+            if (rb)
+            {
+                rb.isKinematic = false;
+            }
+        }
+
+        TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
+        _isShattered = true;
 
         // NOTE: Use this if you want to get the impulse power between 0 and 1.
         //impulsePower = Mathf.InverseLerp(minimumImpulse, maximumImpulse, impulsePower);
-
         OnShatterAction(impulsePower);
     }
 
