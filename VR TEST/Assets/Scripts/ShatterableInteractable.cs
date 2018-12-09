@@ -27,6 +27,10 @@ public class ShatterableInteractable : MonoBehaviour
     [SerializeField] private bool disableGrabOnShatter = true;
     [Tooltip("Enable Physics on scliceable when shatterd.")]
     [SerializeField] private bool enablePhysicsOnShatter = true;
+    [Header("Shatter Haptics")]
+    [SerializeField] private float pulseStrength = 1f;
+    [SerializeField] private float pulseDuration = 0.2f;
+    [SerializeField] private float pulseInterval = 0.05f;
 
     private bool _isShattered = false;
 
@@ -66,21 +70,49 @@ public class ShatterableInteractable : MonoBehaviour
         }
     }
 
-    // Shatter the Object
     public void ShatterObject(float impulsePower)
     {
         if (_isShattered)
         {
             return;
         }
+
+        StartCoroutine(CoShatterObject(impulsePower));
+
+        VRTK_ControllerReference controllerReference = VRTK_ControllerReference.GetControllerReference(interactableObject.GetGrabbingObject());
+        if (VRTK_ControllerReference.IsValid(controllerReference))
+        {
+            //Debug.Log("VALID REF");
+            //VRTK_ControllerHaptics.TriggerHapticPulse(controllerReference, pulseStrength);
+            VRTK_ControllerHaptics.TriggerHapticPulse(controllerReference, pulseStrength, pulseDuration, pulseInterval);
+        }
+    }
+
+    // Shatter the Object
+    private IEnumerator CoShatterObject(float impulsePower)
+    {
+        //interactableObject.GetComponent<Rigidbody>().isKinematic = true;
+        //interactableObject.
+
+        Transform prevParent = sliceableObject.transform.parent;
+        Vector3 prevLocalPos = sliceableObject.transform.localPosition;
+        Vector3 prevGrabPos = prevLocalPos;
+        if (interactableObject.IsGrabbed())
+        {
+            var attachPoint = interactableObject.GetPrimaryAttachPoint();
+            prevGrabPos = prevParent.InverseTransformPoint(attachPoint.position);
+        }
+
         if (dropOnShatter)
         {
             interactableObject.Ungrabbed();
+            sliceableObject.transform.SetParent(null);
         }
         if (disableGrabOnShatter)
         {
             interactableObject.isGrabbable = false;
         }
+        bool addedRigidbody = false;
         if (enablePhysicsOnShatter)
         {
             Rigidbody rb = sliceableObject.GetComponent<Rigidbody>();
@@ -92,20 +124,81 @@ public class ShatterableInteractable : MonoBehaviour
             {
                 rb = sliceableObject.gameObject.AddComponent<Rigidbody>();
                 rb.isKinematic = false;
+                addedRigidbody = true;
             }
         }
-        Transform prevParent = sliceableObject.transform.parent;
-        Vector3 prevLocalPos = sliceableObject.transform.localPosition;
-        sliceableObject.transform.SetParent(null);
+
+        int preShatterChildCount = prevParent.childCount;
         TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
-        if (!dropOnShatter)
+
+        if (dropOnShatter == false)
         {
-            //ToDo: Reparent ONE child thats closest to the original localPos or grab pos.
-            //foreach (Transform child in prevParent.transform)
-            //{
-                
-            //}
+            for (int i = 0; i < shatterSteps; i++)
+            {
+                while (prevParent.childCount == preShatterChildCount)
+                {
+                    yield return null;
+                }
+                preShatterChildCount = prevParent.childCount;
+                //Debug.Log("Children: " + preShatterChildCount);
+                //TurboSlicerSingleton.Instance.
+            }
+            yield return new WaitForEndOfFrame();
+
+            List<Transform> children = new List<Transform>();
+            for (int i = 0; i < prevParent.childCount; i++)
+            {
+                children.Add(prevParent.GetChild(i));
+            }
+
+            //Reparent ONE child thats closest to the original grabPos.
+            Transform heldFragment = null;
+            //float closestDist = float.MaxValue;
+            float largestVolume = 0f;
+            for (int i = 0; i < prevParent.childCount; i++)
+            {
+                Transform child = prevParent.GetChild(i);
+                MeshRenderer mr = child.GetComponent<MeshRenderer>();
+                if (mr)
+                {
+                    float volume = Mathf.Abs(mr.bounds.size.x * mr.bounds.size.y * mr.bounds.size.z);
+
+                    // Bounds are in world space.
+                    //Vector3 diff = prevParent.InverseTransformPoint(mr.bounds.center) - prevGrabPos;
+                    //float dist = diff.magnitude;
+                    //if (dist < closestDist)
+                    if (volume > largestVolume)
+                    {
+                        heldFragment = child;
+                        //closestDist = dist;
+                        largestVolume = volume;
+                    }
+                }
+                // Ignore children without meshrenderers
+            }
+
+            prevParent.DetachChildren();
+
+            if (heldFragment != null)
+            {
+                heldFragment.SetParent(prevParent);
+
+                if (enablePhysicsOnShatter) // Disable physics on this new object.
+                {
+                    Rigidbody rb = heldFragment.gameObject.GetComponent<Rigidbody>();
+                    if (addedRigidbody)
+                    {
+                        Destroy(rb);
+                    }
+                    else
+                    {
+                        rb.isKinematic = true;
+                    }
+                }
+            }
         }
+
+        //interactableObject.GetComponent<Rigidbody>().isKinematic = false;
 
         //sliceableObject.transform.SetParent(prevParent);
         _isShattered = true;
