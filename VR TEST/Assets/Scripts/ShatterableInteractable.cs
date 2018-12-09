@@ -88,9 +88,26 @@ public class ShatterableInteractable : MonoBehaviour
             {
                 rb.isKinematic = false;
             }
+            else
+            {
+                rb = sliceableObject.gameObject.AddComponent<Rigidbody>();
+                rb.isKinematic = false;
+            }
+        }
+        Transform prevParent = sliceableObject.transform.parent;
+        Vector3 prevLocalPos = sliceableObject.transform.localPosition;
+        sliceableObject.transform.SetParent(null);
+        TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
+        if (!dropOnShatter)
+        {
+            //ToDo: Reparent ONE child thats closest to the original localPos or grab pos.
+            //foreach (Transform child in prevParent.transform)
+            //{
+                
+            //}
         }
 
-        TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
+        //sliceableObject.transform.SetParent(prevParent);
         _isShattered = true;
 
         // NOTE: Use this if you want to get the impulse power between 0 and 1.
