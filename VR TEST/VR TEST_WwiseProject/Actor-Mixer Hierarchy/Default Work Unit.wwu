@@ -291,6 +291,25 @@
 						<ActiveSource Name="4th" ID="{E821DE07-FF9A-4E26-B847-C9530CBF49B9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Test" ID="{8E6BBF7A-FF04-43DC-A818-88FE38EA5CA2}" ShortID="959180290">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6F01E7EA-3CA4-4CA6-AA66-ED97E3D2C765}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3B254E20-CA2A-4644-BC9C-3C187D2269CC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="tech_beep_10" ID="{291048C3-486F-457B-BCD9-0D43CF124EEE}" ShortID="51235184">
+							<Language>SFX</Language>
+							<AudioFile>tech_beep_10.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="tech_beep_10" ID="{291048C3-486F-457B-BCD9-0D43CF124EEE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

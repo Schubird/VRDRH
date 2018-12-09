@@ -143,6 +143,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Test" ID="{9BF3FF69-0857-40BB-AD5C-5E3F269EFCC6}">
+					<ChildrenList>
+						<Action Name="" ID="{4CDD9657-6A4E-4FCD-B21F-6EC1651C6E94}" ShortID="111469704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test" ID="{8E6BBF7A-FF04-43DC-A818-88FE38EA5CA2}" WorkUnitID="{09C0C991-B4F6-4753-9879-281633C172F4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

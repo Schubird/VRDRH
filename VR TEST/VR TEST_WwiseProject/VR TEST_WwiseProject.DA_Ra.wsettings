@@ -9,11 +9,13 @@
 				<Property Name="Event Action List\{20E9C7C1-ECE5-4F5B-84EC-6E1AEDA54A8A}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2BE73498-E2FA-4628-B47E-BCB8460DBBB9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{424A6B0D-B069-4999-8D1F-722179A625E7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{47204223-27E2-4E05-9957-B3ABD804AC9D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4F55B1C2-553B-4E22-91EA-B2A3863EBC72}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5B4CD726-F5C0-41AB-9C46-01185942CFDD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66174532-D583-4462-9316-4EB8CE871350}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{69BD9029-2A51-4D83-AD63-3EFC03EF9960}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{73C7BAC2-2ED6-4F6A-B882-915CE0709A9B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9BF3FF69-0857-40BB-AD5C-5E3F269EFCC6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A26DB147-7176-4827-B208-2334984ACC44}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B0E7286E-BD32-43AB-8FDA-F9BC8238EEAC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BF88C33A-996B-4BBD-91F4-BC7DF82CD5ED}\x64_Expand States" Type="string" Value=""/>
@@ -38,11 +40,12 @@
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="wSqNmNhLHESDFHRCeBOg0w=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="tM+Ybg8lSkCePBcX606f/Q=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="LI1RiUGlmEGSr4CbqMOVeQH/////////Z9jKdrzgWUujpT71O1R1LAH/////////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="Z9jKdrzgWUujpT71O1R1LAH/////////LI1RiUGlmEGSr4CbqMOVeQH/////////"/>
 				<Property Name="Interactive Music\x64_{053F1A0D-DC54-4C7D-B5A8-D1FF580DB65A} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1AlDoIOAiRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{3A3AD78B-EDD7-45D1-BCCA-75A2E52D337B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1AlDoIOAiRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{5ABF3E93-D9DC-4C3A-A4A0-4B688280EB1C} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP1AlDoIOAiRAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -57,6 +60,10 @@
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="6"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
+				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
+				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
+				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>

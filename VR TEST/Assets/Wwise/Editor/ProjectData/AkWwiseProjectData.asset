@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: a7d0d516e669774e9c478cc11182e320
-    m_lastTime: -8586576607774737987
+    m_lastTime: -8586572686453122630
     List:
     - name: Main
       guid: b4cf986e0f254a409e3c1717eb4e9ffd
@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: cb8bb9a60cd2684cb88b555e656bae51
-    m_lastTime: -8586576615728540925
+    m_lastTime: -8586572680615381486
     List:
     - name: Play_1st
       guid: 49a8c70344573642885640943f560ba0
@@ -128,6 +128,18 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
+    - name: Play_Test
+      guid: 69fff39b5708bb40ad5c5e3f269efcc6
+      id: 3187507146
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Test
+        ObjectType: 3
+      Path: Default Work Unit\Play_Test
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_voice
       guid: 1f3ec8e5fef38c4e8b963c12267ff00c
       id: 1642680936
@@ -192,7 +204,5 @@ MonoBehaviour:
   - /VR TEST_WwiseProject
   - /VR TEST_WwiseProject/Events
   - /VR TEST_WwiseProject/Events/Default Work Unit
-  - /VR TEST_WwiseProject/SoundBanks
-  - /VR TEST_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
