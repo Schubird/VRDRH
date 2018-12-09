@@ -1,9 +1,0 @@
-<?xml version='1.0'?>
-<WwiseSettings>
-    <CreateWwiseGlobal>true</CreateWwiseGlobal>
-    <CreateWwiseListener>true</CreateWwiseListener>
-    <SoundbankPath>Audio/GeneratedSoundBanks</SoundbankPath>
-    <WwiseProjectPath>../../VR TEST/VR TEST_WwiseProject/VR TEST_WwiseProject.wproj</WwiseProjectPath>
-    <WwiseInstallationPathWindows>D:\Program Files\AudioKinetic</WwiseInstallationPathWindows>
-    <WwiseInstallationPathMac></WwiseInstallationPathMac>
-</WwiseSettings>
