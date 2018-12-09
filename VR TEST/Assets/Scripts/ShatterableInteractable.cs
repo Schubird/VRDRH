@@ -19,6 +19,10 @@ public class ShatterableInteractable : MonoBehaviour
     [SerializeField] private float minimumImpulse = 5f;
     [Tooltip("Maximum impulse read for the shatter event.")]
     [SerializeField] private float maximumImpulse = 10f;
+    [Tooltip("Must be currently grabbed to shatter.")]
+    [SerializeField] private bool requireGrab = true;
+    [Tooltip("Ungrab the object if it shattered.")]
+    [SerializeField] private bool ungrabOnShatter = true;
 
     private bool _isShattered = false;
 
@@ -45,7 +49,7 @@ public class ShatterableInteractable : MonoBehaviour
             Debug.LogWarning("Missing important references!!!");
             return;
         }
-        if (interactableObject.IsGrabbed()) //Only shatter if grabbed.
+        if (!requireGrab || interactableObject.IsGrabbed()) //Only shatter if grabbed.
         {
             if (CheckIfNotPlayer(coll.gameObject)) // Dont shatter if it hits the player.
             {
@@ -61,8 +65,17 @@ public class ShatterableInteractable : MonoBehaviour
     // Shatter the Object
     public void ShatterObject(float impulsePower)
     {
+        if (_isShattered)
+        {
+            return;
+        }
         TurboSlicerSingleton.Instance.Shatter(sliceableObject.gameObject, shatterSteps);
         _isShattered = true;
+
+        if (ungrabOnShatter)
+        {
+            interactableObject.Ungrabbed();
+        }
 
         // NOTE: Use this if you want to get the impulse power between 0 and 1.
         //impulsePower = Mathf.InverseLerp(minimumImpulse, maximumImpulse, impulsePower);
