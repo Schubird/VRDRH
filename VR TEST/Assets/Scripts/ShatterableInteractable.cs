@@ -21,8 +21,10 @@ public class ShatterableInteractable : MonoBehaviour
     [SerializeField] private float maximumImpulse = 10f;
     [Tooltip("Must be currently grabbed to shatter.")]
     [SerializeField] private bool requireGrab = true;
-    [Tooltip("Ungrab the object if it shattered.")]
-    [SerializeField] private bool ungrabOnShatter = true;
+    [Tooltip("Drop the object when shattered.")]
+    [SerializeField] private bool dropOnShatter = true;
+    [Tooltip("Set the interactable to ungrabbale when shattered.")]
+    [SerializeField] private bool disableGrabOnShatter = true;
     [Tooltip("Enable Physics on scliceable when shatterd.")]
     [SerializeField] private bool enablePhysicsOnShatter = true;
 
@@ -71,9 +73,13 @@ public class ShatterableInteractable : MonoBehaviour
         {
             return;
         }
-        if (ungrabOnShatter)
+        if (dropOnShatter)
         {
             interactableObject.Ungrabbed();
+        }
+        if (disableGrabOnShatter)
+        {
+            interactableObject.isGrabbable = false;
         }
         if (enablePhysicsOnShatter)
         {
