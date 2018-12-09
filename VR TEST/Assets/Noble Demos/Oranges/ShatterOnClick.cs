@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using NobleMuffins.TurboSlicer;
 
-void OnCollisionEnter(Collision coll)
+namespace NobleMuffins.TurboSlicer.Examples.Oranges
 {
-    if (!currentlyGrabbed) return;
-    if (coll.gameObject.tag != "Player")
-    {
-        if (coll.impulse.magnitude > shatterThreshold)
-        {
-            TurboSlicerSingleton.Instance.Shatter(meshGameObject, shatterSteps);
+	[RequireComponent (typeof(Sliceable))]
+	public class ShatterOnClick : MonoBehaviour
+	{
+		public int shatterSteps = 3;
 
-            ReleaseGrab();
-        }
-    }
+		void OnMouseUpAsButton ()
+		{
+			TurboSlicerSingleton.Instance.Shatter (gameObject, shatterSteps);
+		}
+	}
 }
