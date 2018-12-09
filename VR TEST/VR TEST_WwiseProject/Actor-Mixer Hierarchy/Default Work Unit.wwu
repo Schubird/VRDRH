@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="tech_beep_10" ID="{CEC4EEEE-5A9F-45DF-BEF4-FA612DCE2632}" ShortID="454325280">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71BB63A4-8B56-4FC6-82D0-A22C535A8D7D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{801B4B25-B066-4A75-8452-449A0DBB7BA1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="tech_beep_10" ID="{FA894147-C3A8-42DE-9940-EB33FBDD1108}" ShortID="524956020">
+							<Language>SFX</Language>
+							<AudioFile>tech_beep_10.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="tech_beep_10" ID="{FA894147-C3A8-42DE-9940-EB33FBDD1108}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1923F65C-EBE3-420F-8FC0-A81116D82EC9}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{1923F65C-EBE3-420F-8FC0-A81116D82EC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_tech_beep_10" ID="{3D958430-CD70-43D8-9C8C-199F3BBD6C21}">
+					<ChildrenList>
+						<Action Name="" ID="{671BFB7A-98A5-4D67-A0F5-72760012CA57}" ShortID="871374831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="tech_beep_10" ID="{CEC4EEEE-5A9F-45DF-BEF4-FA612DCE2632}" WorkUnitID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
