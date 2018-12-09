@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{C390F0EC-C1D8-4F28-A28E-895F8A33AFFB}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{E326B293-3E8B-47F0-A4A0-B81F13C657C5}" SchemaVersion="89">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{C390F0EC-C1D8-4F28-A28E-895F8A33AFFB}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{E326B293-3E8B-47F0-A4A0-B81F13C657C5}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{EFFC56A1-C04A-45C4-BD1E-DAA7791DF2F0}">
+				<SoundBank Name="Main" ID="{D070DB1E-1D48-4AAA-B363-3968272738C7}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_tech_beep_10" ID="{3D958430-CD70-43D8-9C8C-199F3BBD6C21}" WorkUnitID="{1923F65C-EBE3-420F-8FC0-A81116D82EC9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

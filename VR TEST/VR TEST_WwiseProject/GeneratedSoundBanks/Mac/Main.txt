@@ -2,5 +2,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	3524807023	Play_tech_beep_10			\Default Work Unit\Play_tech_beep_10	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	524956020	tech_beep_10	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\tech_beep_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\tech_beep_10		44168
+	350341648	tech_beep_10	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\tech_beep_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\tech_beep_10		44168
 

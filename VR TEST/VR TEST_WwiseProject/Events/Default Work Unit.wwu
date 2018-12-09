@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1923F65C-EBE3-420F-8FC0-A81116D82EC9}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" SchemaVersion="89">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{1923F65C-EBE3-420F-8FC0-A81116D82EC9}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_tech_beep_10" ID="{3D958430-CD70-43D8-9C8C-199F3BBD6C21}">
+				<Event Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}">
 					<ChildrenList>
-						<Action Name="" ID="{671BFB7A-98A5-4D67-A0F5-72760012CA57}" ShortID="871374831">
+						<Action Name="" ID="{D886BD28-8B68-42B0-B1A1-0F53636A425F}" ShortID="266214641">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="tech_beep_10" ID="{CEC4EEEE-5A9F-45DF-BEF4-FA612DCE2632}" WorkUnitID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}"/>
+									<ObjectRef Name="tech_beep_10" ID="{9FF76342-BDBB-4300-8753-EDC2F3EF5AF0}" WorkUnitID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

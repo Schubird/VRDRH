@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}" SchemaVersion="89">
+<WwiseDocument Type="WorkUnit" ID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}" SchemaVersion="89">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{5A7190C3-ADDD-43A4-BA9F-F8B96513DF38}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="tech_beep_10" ID="{CEC4EEEE-5A9F-45DF-BEF4-FA612DCE2632}" ShortID="454325280">
+				<Sound Name="tech_beep_10" ID="{9FF76342-BDBB-4300-8753-EDC2F3EF5AF0}" ShortID="1001262242">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{71BB63A4-8B56-4FC6-82D0-A22C535A8D7D}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{801B4B25-B066-4A75-8452-449A0DBB7BA1}"/>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="tech_beep_10" ID="{FA894147-C3A8-42DE-9940-EB33FBDD1108}" ShortID="524956020">
+						<AudioFileSource Name="tech_beep_10" ID="{59316282-D45D-4EDB-892F-A177463E41AD}" ShortID="350341648">
 							<Language>SFX</Language>
 							<AudioFile>tech_beep_10.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="tech_beep_10" ID="{FA894147-C3A8-42DE-9940-EB33FBDD1108}" Platform="Linked"/>
+						<ActiveSource Name="tech_beep_10" ID="{59316282-D45D-4EDB-892F-A177463E41AD}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

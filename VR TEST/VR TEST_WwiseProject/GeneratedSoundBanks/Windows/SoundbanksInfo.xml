@@ -24,7 +24,7 @@
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="524956020" Language="SFX">
+				<File Id="350341648" Language="SFX">
 					<ShortName>tech_beep_10.wav</ShortName>
 					<Path>SFX\tech_beep_10_56D34C19.wem</Path>
 				</File>

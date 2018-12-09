@@ -14,23 +14,23 @@ MonoBehaviour:
   AcousticTextureWwu:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: b7eb046e7f94314ba4434601a646934b
-    m_lastTime: -8586572314918384805
+    guid: d1707d0774b0e8498942913ce18e5d17
+    m_lastTime: -8586572252047095760
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 254b1b8066b0754a8452449a0dbb7ba1
-    m_lastTime: -8586572314919102900
+    guid: 55da0278327f914f87b375b1a02c2b5d
+    m_lastTime: -8586572252047664529
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: ecf090c3d8c1284fa28e895f8a33affb
-    m_lastTime: -8586572311548996999
+    guid: 93b226e38b3ef047a4a0b81f13c657c5
+    m_lastTime: -8586572244620671189
     List:
     - name: Main
-      guid: a156fcef4ac0c445bd1edaa7791df2f0
+      guid: 1edb70d0481daa4ab3633968272738c7
       id: 3161908922
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -41,11 +41,11 @@ MonoBehaviour:
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 5cf62319e3eb0f428fc0a81116d82ec9
-    m_lastTime: -8586572311548996999
+    guid: fc4ab22cd18fcd47999d005d226f0b61
+    m_lastTime: -8586572244620750665
     List:
     - name: Play_tech_beep_10
-      guid: 3084953d70cdd8439c8c199f3bbd6c21
+      guid: 9ca77a74e8321f49895e5b62dfcb0341
       id: 3524807023
       PathAndIcons:
       - ElementName: Default Work Unit
@@ -59,26 +59,26 @@ MonoBehaviour:
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 45d5656e2badd84280900d56a715270c
-    m_lastTime: -8586572314917965938
+    guid: b66a71869badb44a84cdf2219765a268
+    m_lastTime: -8586572252049273592
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: b5e38dba4e6c054d982274944a9859b3
-    m_lastTime: -8586572314919182668
+    guid: daa6f6b0517d984d86019b200914bba1
+    m_lastTime: -8586572252047255326
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: fc254b203c356c49a3b099e9568abb98
-    m_lastTime: -8586572314919242522
+    guid: e18de585d2857c4e9a424bc1815150b9
+    m_lastTime: -8586572252047185521
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
-    guid: 063ae72e3fb27d46bf6a6812c61c70a6
-    m_lastTime: -8586572314918623848
+    guid: 2c8f59d90dd60143883856d413afca6e
+    m_lastTime: -8586572252047135655
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
