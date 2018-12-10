@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 93b226e38b3ef047a4a0b81f13c657c5
-    m_lastTime: -8586572244620671189
+    m_lastTime: -8586571878352229668
     List:
     - name: Main
       guid: 1edb70d0481daa4ab3633968272738c7
@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586572244620750665
+    m_lastTime: -8586571882503579099
     List:
     - name: Play_tech_beep_10
       guid: 9ca77a74e8321f49895e5b62dfcb0341
@@ -56,6 +56,49 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\ENV.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: c34390d46aebaa429bfbd89629a1b967
+    m_lastTime: -8586571882904378465
+    List: []
+  - PhysicalPath: Events\Instruments.wwu
+    ParentPhysicalPath: Events\Interacts.wwu
+    guid: f400112f3f4d594f82e7b923c8d7c9d3
+    m_lastTime: -8586571882503498977
+    List:
+    - name: Play_Wood_Crash_1
+      guid: 283de92a05838645a0feaab7415e1089
+      id: 54507653
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SX
+        ObjectType: 12
+      - ElementName: Interacts
+        ObjectType: 12
+      - ElementName: Instruments
+        ObjectType: 12
+      - ElementName: Play_Wood_Crash_1
+        ObjectType: 3
+      Path: Default Work Unit\SX\Interacts\Instruments\Play_Wood_Crash_1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Interacts.wwu
+    ParentPhysicalPath: Events\SX.wwu
+    guid: df7c77254d7de74d8caff3a16d5071a3
+    m_lastTime: -8586571882570686338
+    List: []
+  - PhysicalPath: Events\MX.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: cc13c970d7a0644289f4efbc7dd62b34
+    m_lastTime: -8586571882950959218
+    List: []
+  - PhysicalPath: Events\SX.wwu
+    ParentPhysicalPath: Events\Default Work Unit.wwu
+    guid: a5739950311d00479e641ebb54af33d9
+    m_lastTime: -8586571882570596428
+    List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -82,5 +125,10 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
+  - /VR TEST_WwiseProject/Events
+  - /VR TEST_WwiseProject/Events/Default Work Unit
+  - /VR TEST_WwiseProject/Events/Default Work Unit/SX
+  - /VR TEST_WwiseProject/Events/Default Work Unit/SX/Interacts
+  - /VR TEST_WwiseProject/Events/Default Work Unit/SX/Interacts/Instruments
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="Instruments" ID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}" OwnerID="{25777CDF-7D4D-4DE7-8CAF-F3A16D5071A3}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Wood_Crash_1" ID="{2AE93D28-8305-4586-A0FE-AAB7415E1089}">
+					<ChildrenList>
+						<Action Name="" ID="{CFEE45EB-011E-4EF3-91E5-FA34557972BF}" ShortID="654210384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wood_Crash_1" ID="{1914A55C-C617-476D-AC4B-B23A9AA9A6E1}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

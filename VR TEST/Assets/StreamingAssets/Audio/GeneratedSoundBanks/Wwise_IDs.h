@@ -13,7 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_LOBBYGUITAR = 1045822128U;
         static const AkUniqueID PLAY_TECH_BEEP_10 = 3524807023U;
+        static const AkUniqueID PLAY_WOOD_CRASH_1 = 54507653U;
+        static const AkUniqueID STOP_LOBBYGUITAR = 3501790758U;
     } // namespace EVENTS
 
     namespace BANKS

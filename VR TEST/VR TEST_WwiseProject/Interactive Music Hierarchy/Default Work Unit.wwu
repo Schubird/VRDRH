@@ -1,6 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ABDFA279-D4DD-4226-922B-D233535121A0}" SchemaVersion="89">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{ABDFA279-D4DD-4226-922B-D233535121A0}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ABDFA279-D4DD-4226-922B-D233535121A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="LobbyGuitar" ID="{137CA1E5-3CAC-4FCE-8307-56AC0E9AE6EA}" ShortID="976205427">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Guitar" ID="{9C8221DD-CC9A-4BDF-A981-57440BFB8C44}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Gutiar" ID="{B9ECC588-622F-48E8-AC07-727D62F89C7B}" ShortID="60592094">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Guitar" ID="{9C8221DD-CC9A-4BDF-A981-57440BFB8C44}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="guitarloop" ID="{B740FEBC-CAD4-4AA2-BBD7-BEF69408D102}" ShortID="1050201016">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="4528.32199546485"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="guitarloop" ID="{BC5002A2-1E7C-4D62-93D8-1C22200004CD}" ShortID="379335585">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{170EAACB-9FF8-4E4F-B866-323C7C32BC1F}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="guitarloop" ID="{988DD9B4-DF67-4EBD-8B43-802ED6FAAD90}" ShortID="368825838">
+													<Language>SFX</Language>
+													<AudioFile>guitarloop.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{87C0824F-86AF-458B-B458-69D2F2206F4D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{1C62F9B0-C235-4347-8355-E740A32C4C42}">
+													<ClipList>
+														<MusicClip Name="guitarloop" ID="{AEF2AAFE-8C4A-4DE1-A166-5A7C247C43D7}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="4528.32199546485"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="guitarloop" ID="{988DD9B4-DF67-4EBD-8B43-802ED6FAAD90}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{48C788C7-5CBD-484D-9797-F6D7B69A3D99}"/>
+										<MusicCue Name="Exit Cue" ID="{AD976559-F59F-4790-B13D-3636BA97FFEE}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="4528.32199546485"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{BE3DAF9B-8CDD-43D2-A5FE-4095E01FA265}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{E384AC0E-477F-4D3B-8EAE-9D3C8B173CC0}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F9B25183-0DFE-4CBF-B74B-8C2300D713C2}" ShortID="19819426">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{3FBD52AF-F720-4EF3-BFB6-5AA338D6676D}" ShortID="313744064">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="guitarloop" ID="{B740FEBC-CAD4-4AA2-BBD7-BEF69408D102}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{C46A0BBA-390F-429D-951C-D0A88912D6DE}"/>
+					</PositioningInfo>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{1B58634D-85BF-47D0-94D8-139814CF2AA1}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{F590F86A-F426-4982-8DE3-A4407871A24A}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<EntryList>
+						<Entry>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Gutiar" ID="{B9ECC588-622F-48E8-AC07-727D62F89C7B}" WorkUnitID="{ABDFA279-D4DD-4226-922B-D233535121A0}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

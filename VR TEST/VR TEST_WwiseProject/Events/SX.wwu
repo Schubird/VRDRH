@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" OwnerID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Interacts" ID="{25777CDF-7D4D-4DE7-8CAF-F3A16D5071A3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

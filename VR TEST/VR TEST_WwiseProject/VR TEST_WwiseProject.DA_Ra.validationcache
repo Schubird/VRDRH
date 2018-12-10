@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="89">
-	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1544418581" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Actor-Mixer Hierarchy\ENV.wwu" DateLow="1544418408" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Actor-Mixer Hierarchy\SX.wwu" DateLow="1544418581" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Actor-Mixer Hierarchy\VO.wwu" DateLow="1544418401" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1544382389" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Effects\Factory Effects.wwu" DateLow="1544381680" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\Default Work Unit.wwu" DateLow="1544418635" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\ENV.wwu" DateLow="1544418595" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\Instruments.wwu" DateLow="1544418635" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\Interacts.wwu" DateLow="1544418628" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\MX.wwu" DateLow="1544418590" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Events\SX.wwu" DateLow="1544418628" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
@@ -18,7 +26,7 @@
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Queries\Factory Queries.wwu" DateLow="1544381680" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1544382423" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\States\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1544381680" DateHigh="0"/>

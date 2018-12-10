@@ -65,6 +65,9 @@ public class ShatterableInteractable : MonoBehaviour
                 if (impulseMagnitude > minimumImpulse) // shatter if enough impulse. 
                 {
                     ShatterObject(Mathf.Clamp(impulseMagnitude, minimumImpulse, maximumImpulse));
+
+                    AkSoundEngine.PostEvent("Play_Wood_Crash_1", gameObject);
+                    AkSoundEngine.PostEvent("Stop_LobbyGuitar", gameObject);
                 }
             }
         }

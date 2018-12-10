@@ -6,6 +6,7 @@
 				<SoundBank Name="Main" ID="{D070DB1E-1D48-4AAA-B363-3968272738C7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SX" ID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -21,12 +21,23 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1045822128" Name="Play_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Play_LobbyGuitar" MaxAttenuation="25.000000"/>
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>
+				<Event Id="54507653" Name="Play_Wood_Crash_1" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Wood_Crash_1"/>
+				<Event Id="3501790758" Name="Stop_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Stop_LobbyGuitar" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="350341648" Language="SFX">
 					<ShortName>tech_beep_10.wav</ShortName>
 					<Path>SFX\tech_beep_10_56D34C19.wem</Path>
+				</File>
+				<File Id="368825838" Language="SFX">
+					<ShortName>guitarloop.wav</ShortName>
+					<Path>SFX\guitarloop_8956FC97.wem</Path>
+				</File>
+				<File Id="400896686" Language="SFX">
+					<ShortName>Wood_Crash_1.wav</ShortName>
+					<Path>SFX\Wood_Crash_1_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

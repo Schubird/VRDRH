@@ -17,6 +17,37 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" PersistMode="Reference"/>
+				<WorkUnit Name="MX" ID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" PersistMode="Reference"/>
+				<WorkUnit Name="ENV" ID="{D49043C3-EB6A-42AA-9BFB-D89629A1B967}" PersistMode="Reference"/>
+				<Event Name="Play_LobbyGuitar" ID="{91AB059B-2610-40A9-9D0E-6888684D17A9}">
+					<ChildrenList>
+						<Action Name="" ID="{B4E0B0D4-2167-41BF-A3BF-4424F3A86236}" ShortID="617418478">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyGuitar" ID="{137CA1E5-3CAC-4FCE-8307-56AC0E9AE6EA}" WorkUnitID="{ABDFA279-D4DD-4226-922B-D233535121A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_LobbyGuitar" ID="{6743FC9A-2A49-469F-A551-DCDC7E8EF440}">
+					<ChildrenList>
+						<Action Name="" ID="{BFA806C3-6004-477F-9753-6AEE66AC8E3C}" ShortID="204565972">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyGuitar" ID="{137CA1E5-3CAC-4FCE-8307-56AC0E9AE6EA}" WorkUnitID="{ABDFA279-D4DD-4226-922B-D233535121A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

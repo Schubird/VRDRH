@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{25777CDF-7D4D-4DE7-8CAF-F3A16D5071A3}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="Interacts" ID="{25777CDF-7D4D-4DE7-8CAF-F3A16D5071A3}" OwnerID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Instruments" ID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
