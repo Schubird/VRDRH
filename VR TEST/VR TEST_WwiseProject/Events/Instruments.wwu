@@ -3,15 +3,25 @@
 	<Events>
 		<WorkUnit Name="Instruments" ID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}" OwnerID="{25777CDF-7D4D-4DE7-8CAF-F3A16D5071A3}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Play_Wood_Crash_1" ID="{2AE93D28-8305-4586-A0FE-AAB7415E1089}">
+				<Event Name="Play_Guitar_Smash" ID="{FCC79C96-7C2A-4D69-90D1-16B0DD487FD6}">
 					<ChildrenList>
-						<Action Name="" ID="{CFEE45EB-011E-4EF3-91E5-FA34557972BF}" ShortID="654210384">
+						<Action Name="" ID="{BBDD2B32-4462-4836-935F-C40C54008CB2}" ShortID="476507039">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wood_Crash_1" ID="{1914A55C-C617-476D-AC4B-B23A9AA9A6E1}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}"/>
+									<ObjectRef Name="Guitar_Smash" ID="{1914A55C-C617-476D-AC4B-B23A9AA9A6E1}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1464368B-E53A-4970-AC48-897896A65FA6}" ShortID="246792960">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyGuitar" ID="{137CA1E5-3CAC-4FCE-8307-56AC0E9AE6EA}" WorkUnitID="{ABDFA279-D4DD-4226-922B-D233535121A0}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -21,10 +21,9 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3908617517" Name="Play_Guitar_Smash" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash"/>
 				<Event Id="1045822128" Name="Play_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Play_LobbyGuitar" MaxAttenuation="25.000000"/>
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>
-				<Event Id="54507653" Name="Play_Wood_Crash_1" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Wood_Crash_1"/>
-				<Event Id="3501790758" Name="Stop_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Stop_LobbyGuitar" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="350341648" Language="SFX">

@@ -34,6 +34,8 @@ public class ShatterableInteractable : MonoBehaviour
 
     private bool _isShattered = false;
 
+    public string eventName; 
+
 	void Start ()
     {
         if (interactableObject == null)
@@ -66,8 +68,7 @@ public class ShatterableInteractable : MonoBehaviour
                 {
                     ShatterObject(Mathf.Clamp(impulseMagnitude, minimumImpulse, maximumImpulse));
 
-                    AkSoundEngine.PostEvent("Play_Wood_Crash_1", gameObject);
-                    AkSoundEngine.PostEvent("Stop_LobbyGuitar", gameObject);
+                    AkSoundEngine.PostEvent(eventName, gameObject);
                 }
             }
         }

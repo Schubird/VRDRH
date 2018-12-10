@@ -1,11 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
-	54507653	Play_Wood_Crash_1			\Default Work Unit\SX\Interacts\Instruments\Play_Wood_Crash_1	
 	1045822128	Play_LobbyGuitar			\Default Work Unit\MX\Play_LobbyGuitar	
-	3501790758	Stop_LobbyGuitar			\Default Work Unit\MX\Stop_LobbyGuitar	
 	3524807023	Play_tech_beep_10			\Default Work Unit\Play_tech_beep_10	
+	3908617517	Play_Guitar_Smash			\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	350341648	tech_beep_10	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\tech_beep_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\tech_beep_10		44168
 	368825838	guitarloop	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\guitarloop_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\LobbyGuitar\Gutiar\guitarloop\guitarloop		798860
-	400896686	Wood_Crash_1	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\Wood_Crash_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\Instruments\Guitar\Smash\Smash\Wood_Crash_1		223012
+	400896686	Guitar_Smash	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\Wood_Crash_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\Instruments\Guitar\Smash\Smash\Guitar_Smash		223012
 

@@ -6,11 +6,11 @@
 				<SoundcasterSession Name="test1" ID="{946D0803-75AC-467E-A25B-A19EC33D5D2F}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_LobbyGuitar" ID="{91AB059B-2610-40A9-9D0E-6888684D17A9}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}"/>
+							<ObjectRef Name="Play_LobbyGuitar" ID="{91AB059B-2610-40A9-9D0E-6888684D17A9}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Stop_LobbyGuitar" ID="{6743FC9A-2A49-469F-A551-DCDC7E8EF440}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}"/>
+							<ObjectRef Name="Play_Guitar_Smash" ID="{FCC79C96-7C2A-4D69-90D1-16B0DD487FD6}" WorkUnitID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}"/>
 							<Position X="0" Y="1"/>
 						</Module>
 					</ModuleList>

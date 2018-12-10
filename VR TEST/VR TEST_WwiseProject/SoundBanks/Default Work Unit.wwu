@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{D070DB1E-1D48-4AAA-B363-3968272738C7}">
 					<ObjectInclusionList>
+						<ObjectRef Name="MX" ID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" WorkUnitID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SX" ID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

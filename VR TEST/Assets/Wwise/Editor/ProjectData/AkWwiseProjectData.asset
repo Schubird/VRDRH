@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 93b226e38b3ef047a4a0b81f13c657c5
-    m_lastTime: -8586571878352229668
+    m_lastTime: -8586571763836054084
     List:
     - name: Main
       guid: 1edb70d0481daa4ab3633968272738c7
@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586571882503579099
+    m_lastTime: -8586571763836163792
     List:
     - name: Play_tech_beep_10
       guid: 9ca77a74e8321f49895e5b62dfcb0341
@@ -64,11 +64,11 @@ MonoBehaviour:
   - PhysicalPath: Events\Instruments.wwu
     ParentPhysicalPath: Events\Interacts.wwu
     guid: f400112f3f4d594f82e7b923c8d7c9d3
-    m_lastTime: -8586571882503498977
+    m_lastTime: -8586571763835814728
     List:
-    - name: Play_Wood_Crash_1
-      guid: 283de92a05838645a0feaab7415e1089
-      id: 54507653
+    - name: Play_Guitar_Smash
+      guid: 969cc7fc2a7c694d90d116b0dd487fd6
+      id: 3908617517
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -78,9 +78,9 @@ MonoBehaviour:
         ObjectType: 12
       - ElementName: Instruments
         ObjectType: 12
-      - ElementName: Play_Wood_Crash_1
+      - ElementName: Play_Guitar_Smash
         ObjectType: 3
-      Path: Default Work Unit\SX\Interacts\Instruments\Play_Wood_Crash_1
+      Path: Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -92,8 +92,22 @@ MonoBehaviour:
   - PhysicalPath: Events\MX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: cc13c970d7a0644289f4efbc7dd62b34
-    m_lastTime: -8586571882950959218
-    List: []
+    m_lastTime: -8586571763835605264
+    List:
+    - name: Play_LobbyGuitar
+      guid: 9b05ab911026a9409d0e6888684d17a9
+      id: 1045822128
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_LobbyGuitar
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_LobbyGuitar
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\SX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: a5739950311d00479e641ebb54af33d9
@@ -127,8 +141,7 @@ MonoBehaviour:
   - /VR TEST_WwiseProject
   - /VR TEST_WwiseProject/Events
   - /VR TEST_WwiseProject/Events/Default Work Unit
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX
   - /VR TEST_WwiseProject/Events/Default Work Unit/SX
-  - /VR TEST_WwiseProject/Events/Default Work Unit/SX/Interacts
-  - /VR TEST_WwiseProject/Events/Default Work Unit/SX/Interacts/Instruments
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

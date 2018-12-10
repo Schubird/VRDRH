@@ -43,7 +43,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Wood_Crash_1" ID="{1914A55C-C617-476D-AC4B-B23A9AA9A6E1}" ShortID="953026633">
+												<Sound Name="Guitar_Smash" ID="{1914A55C-C617-476D-AC4B-B23A9AA9A6E1}" ShortID="953026633">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
