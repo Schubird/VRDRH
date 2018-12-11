@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C9E10B06-4C56-446C-B539-01C85668BECA}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="IntroStop" ID="{C9E10B06-4C56-446C-B539-01C85668BECA}" OwnerID="{61E1888E-CEF0-4852-9680-D9ABD6BFF849}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Stop_VRH_Taik_IntroStringsLoop_120" ID="{FEC90031-4E60-420C-BFFF-66350B299DF0}">
+					<ChildrenList>
+						<Action Name="" ID="{8C4359E4-89C3-499A-BE2A-9E0838D1111D}" ShortID="616173388">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_IntroStringsLoop_120" ID="{23CA6BC9-BDF0-483D-AE27-69E053624765}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_Shakahachi_120" ID="{8A354390-B255-4B64-9815-0249636E8916}">
+					<ChildrenList>
+						<Action Name="" ID="{6194C4A1-BE29-4BDE-8FF3-863A8BFE282E}" ShortID="637988545">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_Shakahachi_120" ID="{4013DBE0-A2AF-4574-BC24-B24F242EDFF4}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_IntroKoto_120" ID="{938B93CC-4233-49D5-9F32-AD63EF01B45B}">
+					<ChildrenList>
+						<Action Name="" ID="{3E2EFB57-D0D1-4C8B-BB98-A19A661D8512}" ShortID="73811317">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_IntroKoto_120" ID="{2BBE1106-732B-4EDA-B3C6-0180E1726FAD}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

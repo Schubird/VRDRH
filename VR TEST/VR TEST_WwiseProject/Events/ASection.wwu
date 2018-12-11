@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AB2B43E2-29EE-42F1-9C42-7E51F5F8AFC0}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="ASection" ID="{AB2B43E2-29EE-42F1-9C42-7E51F5F8AFC0}" OwnerID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_VRH_Taik_TailkoLoopA_120" ID="{32447CCC-5390-457B-8720-0E517EDE8D21}">
+					<ChildrenList>
+						<Action Name="" ID="{DFC7E4A5-5130-415E-A409-0F1BAA4789B8}" ShortID="58000448">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_TailkoLoopA_120" ID="{AA5B27E8-62ED-4421-82B8-23D4D7052F3D}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_StringsLegA_120" ID="{D54ADA96-B5F4-4A82-8E25-848113986CC4}">
+					<ChildrenList>
+						<Action Name="" ID="{06CB50FB-3512-410C-A750-DFC023A9A244}" ShortID="901125461">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_StringsLegA_120" ID="{B700B271-40AC-4CF3-895B-B2BB98B54DE6}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_BassA_120" ID="{278E5346-9DC3-4C55-BCA9-79A597A892D6}">
+					<ChildrenList>
+						<Action Name="" ID="{7740F023-8047-4917-987C-66D3E8F19154}" ShortID="151110277">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_BassA_120" ID="{4CAA98E9-3501-4F3D-88EB-A6346B81818B}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_KotoA_120" ID="{ADF3A13C-5E0C-4B0F-9F46-5D9378FD38B3}">
+					<ChildrenList>
+						<Action Name="" ID="{088731D8-EB8F-4A53-BE63-4ADFD993B2DF}" ShortID="854789311">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_KotoA_120" ID="{6CA50560-3472-4813-84C6-289DAFEBE48F}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_CelloA_120" ID="{22BA1960-F6BC-4996-A595-49323F3E6A5F}">
+					<ChildrenList>
+						<Action Name="" ID="{3ADB43F5-06C5-4B06-BF77-BF7C26E1E586}" ShortID="418346529">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_CelloA_120" ID="{63EA9D01-6C55-464A-8DD5-79763DB12722}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_HornA_120" ID="{DEB0FDE0-1E34-4603-945E-74D647BC70F2}">
+					<ChildrenList>
+						<Action Name="" ID="{A146A117-97C0-4227-BEB0-D83D005C72FB}" ShortID="224398165">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_HornA_120" ID="{150069C0-DF75-4077-9C0F-E9141F28A960}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_AStringsLoop_120" ID="{85777422-609A-4129-A00A-FCF992F23517}">
+					<ChildrenList>
+						<Action Name="" ID="{5E2DB17B-E224-4205-869B-EBF692BA93C6}" ShortID="149971765">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_AStringsLoop_120" ID="{E79F8AC7-2258-4244-8D66-CB6DDC8633B2}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="ASectionStop" ID="{F493C2BC-0222-4E7F-AA11-9733C51FEF5C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

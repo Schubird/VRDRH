@@ -25,6 +25,7 @@
 				<WorkUnit Name="SX" ID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" PersistMode="Reference"/>
 				<WorkUnit Name="VO" ID="{6F9304BC-0778-45A1-95F8-2BD5EFE8D21E}" PersistMode="Reference"/>
 				<WorkUnit Name="ENV" ID="{5774C79C-62FA-4068-9F42-7BFFDC7E6439}" PersistMode="Reference"/>
+				<WorkUnit Name="TempMusic" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

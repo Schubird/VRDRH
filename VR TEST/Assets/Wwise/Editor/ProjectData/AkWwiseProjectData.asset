@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586571763836163792
+    m_lastTime: -8586571092778588449
     List:
     - name: Play_tech_beep_10
       guid: 9ca77a74e8321f49895e5b62dfcb0341
@@ -92,7 +92,7 @@ MonoBehaviour:
   - PhysicalPath: Events\MX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: cc13c970d7a0644289f4efbc7dd62b34
-    m_lastTime: -8586571763835605264
+    m_lastTime: -8586571092777611065
     List:
     - name: Play_LobbyGuitar
       guid: 9b05ab911026a9409d0e6888684d17a9
@@ -106,6 +106,20 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\MX\Play_LobbyGuitar
       maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Theater_1
+      guid: c610152f00e2dc4b9917bdd53ba15be8
+      id: 1338298960
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_VRH_Theater_1
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_VRH_Theater_1
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   - PhysicalPath: Events\SX.wwu
@@ -139,9 +153,5 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
-  - /VR TEST_WwiseProject/Events
-  - /VR TEST_WwiseProject/Events/Default Work Unit
-  - /VR TEST_WwiseProject/Events/Default Work Unit/MX
-  - /VR TEST_WwiseProject/Events/Default Work Unit/SX
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

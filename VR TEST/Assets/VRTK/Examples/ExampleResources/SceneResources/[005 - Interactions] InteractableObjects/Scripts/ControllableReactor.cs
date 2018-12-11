@@ -10,6 +10,8 @@
         public Text displayText;
         public string outputOnMax = "Maximum Reached";
         public string outputOnMin = "Minimum Reached";
+        [Header("Wwise Event")]
+        public AK.Wwise.Event buttonEvent;
 
         protected virtual void OnEnable()
         {
@@ -32,6 +34,12 @@
             if (outputOnMax != "")
             {
                 Debug.Log(outputOnMax);
+
+                print("YaLikeJazz");
+
+                // Play Wwise Event
+                buttonEvent.Post(gameObject);
+
             }
         }
 
@@ -40,6 +48,7 @@
             if (outputOnMin != "")
             {
                 Debug.Log(outputOnMin);
+                
             }
         }
     }

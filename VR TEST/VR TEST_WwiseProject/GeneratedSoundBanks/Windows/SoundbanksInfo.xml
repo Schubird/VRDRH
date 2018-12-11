@@ -24,8 +24,64 @@
 				<Event Id="3908617517" Name="Play_Guitar_Smash" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash"/>
 				<Event Id="1045822128" Name="Play_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Play_LobbyGuitar" MaxAttenuation="25.000000"/>
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>
+				<Event Id="4113223378" Name="Play_VRH_Taik_AStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_AStringsLoop_120"/>
+				<Event Id="1143094769" Name="Play_VRH_Taik_BassA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_BassA_120"/>
+				<Event Id="77859747" Name="Play_VRH_Taik_BassB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BassB_143"/>
+				<Event Id="823665582" Name="Play_VRH_Taik_BStringsLoop_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BStringsLoop_143"/>
+				<Event Id="4158975229" Name="Play_VRH_Taik_CelloA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_CelloA_120"/>
+				<Event Id="3647195751" Name="Play_VRH_Taik_CelloB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_CelloB_143"/>
+				<Event Id="4144706703" Name="Play_VRH_Taik_HornA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_HornA_120"/>
+				<Event Id="39129637" Name="Play_VRH_Taik_HornB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_HornB_143"/>
+				<Event Id="270155220" Name="Play_VRH_Taik_IntroKoto_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroKoto_120"/>
+				<Event Id="2047931711" Name="Play_VRH_Taik_IntroStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroStringsLoop_120"/>
+				<Event Id="3817474177" Name="Play_VRH_Taik_KotoA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_KotoA_120"/>
+				<Event Id="236215806" Name="Play_VRH_Taik_Shakahachi_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_Shakahachi_120"/>
+				<Event Id="1114293292" Name="Play_VRH_Taik_StringsB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_StringsB_143"/>
+				<Event Id="912267708" Name="Play_VRH_Taik_StringsLegA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_StringsLegA_120"/>
+				<Event Id="2081615060" Name="Play_VRH_Taik_TailkoLoopA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120"/>
+				<Event Id="852315666" Name="Play_VRH_Taik_TailkoLoopB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_TailkoLoopB_143"/>
+				<Event Id="105408428" Name="Stop_VRH_Taik_AStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_AStringsLoop_120" MaxAttenuation="0.000000"/>
+				<Event Id="3880093399" Name="Stop_VRH_Taik_BassA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_BassA_120" MaxAttenuation="0.000000"/>
+				<Event Id="959595373" Name="Stop_VRH_Taik_BassB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BassB_143" MaxAttenuation="0.000000"/>
+				<Event Id="1102538924" Name="Stop_VRH_Taik_BStringsLoop_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BStringsLoop_143" MaxAttenuation="0.000000"/>
+				<Event Id="2580965139" Name="Stop_VRH_Taik_CelloA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_CelloA_120" MaxAttenuation="0.000000"/>
+				<Event Id="1517662593" Name="Stop_VRH_Taik_CelloB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_CelloB_143" MaxAttenuation="0.000000"/>
+				<Event Id="3186126453" Name="Stop_VRH_Taik_HornA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_HornA_120" MaxAttenuation="0.000000"/>
+				<Event Id="1494490815" Name="Stop_VRH_Taik_HornB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_HornB_143" MaxAttenuation="0.000000"/>
+				<Event Id="3483596190" Name="Stop_VRH_Taik_IntroKoto_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroKoto_120" MaxAttenuation="0.000000"/>
+				<Event Id="3557786597" Name="Stop_VRH_Taik_IntroStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroStringsLoop_120" MaxAttenuation="0.000000"/>
+				<Event Id="3056951711" Name="Stop_VRH_Taik_KotoA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_KotoA_120" MaxAttenuation="0.000000"/>
+				<Event Id="1178541960" Name="Stop_VRH_Taik_Shakahachi_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_Shakahachi_120" MaxAttenuation="0.000000"/>
+				<Event Id="3819311994" Name="Stop_VRH_Taik_StringsB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_StringsB_143" MaxAttenuation="0.000000"/>
+				<Event Id="3043520462" Name="Stop_VRH_Taik_StringsLegA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_StringsLegA_120" MaxAttenuation="0.000000"/>
+				<Event Id="3226093662" Name="Stop_VRH_Taik_TailkoLoopA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_TailkoLoopA_120" MaxAttenuation="0.000000"/>
+				<Event Id="4095220136" Name="Stop_VRH_Taik_TailkoLoopB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_TailkoLoopB_143" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="56155337" Language="SFX">
+					<ShortName>VRH_Taik_StringsLegA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_StringsLegA_120_8956FC97.wem</Path>
+				</File>
+				<File Id="140787269" Language="SFX">
+					<ShortName>VRH_Taik_Shakahachi_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_Shakahachi_120_8956FC97.wem</Path>
+				</File>
+				<File Id="161234106" Language="SFX">
+					<ShortName>VRH_Taik_BassA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_BassA_120_8956FC97.wem</Path>
+				</File>
+				<File Id="232405788" Language="SFX">
+					<ShortName>VRH_Taik_KotoA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_KotoA_120_8956FC97.wem</Path>
+				</File>
+				<File Id="254747597" Language="SFX">
+					<ShortName>VRH_Taik_TailkoLoopB_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_TailkoLoopB_143_8956FC97.wem</Path>
+				</File>
+				<File Id="335124400" Language="SFX">
+					<ShortName>VRH_Taik_HornA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_HornA_120_8956FC97.wem</Path>
+				</File>
 				<File Id="350341648" Language="SFX">
 					<ShortName>tech_beep_10.wav</ShortName>
 					<Path>SFX\tech_beep_10_56D34C19.wem</Path>
@@ -34,9 +90,49 @@
 					<ShortName>guitarloop.wav</ShortName>
 					<Path>SFX\guitarloop_8956FC97.wem</Path>
 				</File>
+				<File Id="382669420" Language="SFX">
+					<ShortName>VRH_Taik_AStringsLoop_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_AStringsLoop_120_8956FC97.wem</Path>
+				</File>
+				<File Id="399181645" Language="SFX">
+					<ShortName>VRH_Taik_TailkoLoopA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_TailkoLoopA_120_8956FC97.wem</Path>
+				</File>
 				<File Id="400896686" Language="SFX">
 					<ShortName>Wood_Crash_1.wav</ShortName>
 					<Path>SFX\Wood_Crash_1_56D34C19.wem</Path>
+				</File>
+				<File Id="407713533" Language="SFX">
+					<ShortName>VRH_Taik_CelloB_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_CelloB_143_8956FC97.wem</Path>
+				</File>
+				<File Id="504726760" Language="SFX">
+					<ShortName>VRH_Taik_BassB_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_BassB_143_8956FC97.wem</Path>
+				</File>
+				<File Id="596165932" Language="SFX">
+					<ShortName>VRH_Taik_IntroStringsLoop_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_IntroStringsLoop_120_8956FC97.wem</Path>
+				</File>
+				<File Id="667597574" Language="SFX">
+					<ShortName>VRH_Taik_BStringsLoop_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_BStringsLoop_143_8956FC97.wem</Path>
+				</File>
+				<File Id="694503596" Language="SFX">
+					<ShortName>VRH_Taik_IntroKoto_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_IntroKoto_120_8956FC97.wem</Path>
+				</File>
+				<File Id="912444439" Language="SFX">
+					<ShortName>VRH_Taik_CelloA_120.wav</ShortName>
+					<Path>SFX\VRH_Taik_CelloA_120_8956FC97.wem</Path>
+				</File>
+				<File Id="1028860169" Language="SFX">
+					<ShortName>VRH_Taik_StringsB_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_StringsB_143_8956FC97.wem</Path>
+				</File>
+				<File Id="1030259222" Language="SFX">
+					<ShortName>VRH_Taik_HornB_143.wav</ShortName>
+					<Path>SFX\VRH_Taik_HornB_143_8956FC97.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

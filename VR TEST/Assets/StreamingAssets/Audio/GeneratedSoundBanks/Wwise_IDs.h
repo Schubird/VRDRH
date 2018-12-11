@@ -16,7 +16,44 @@ namespace AK
         static const AkUniqueID PLAY_GUITAR_SMASH = 3908617517U;
         static const AkUniqueID PLAY_LOBBYGUITAR = 1045822128U;
         static const AkUniqueID PLAY_TECH_BEEP_10 = 3524807023U;
+        static const AkUniqueID PLAY_VRH_TAIK_ASTRINGSLOOP_120 = 4113223378U;
+        static const AkUniqueID PLAY_VRH_TAIK_BASSA_120 = 1143094769U;
+        static const AkUniqueID PLAY_VRH_TAIK_BASSB_143 = 77859747U;
+        static const AkUniqueID PLAY_VRH_TAIK_BSTRINGSLOOP_143 = 823665582U;
+        static const AkUniqueID PLAY_VRH_TAIK_CELLOA_120 = 4158975229U;
+        static const AkUniqueID PLAY_VRH_TAIK_CELLOB_143 = 3647195751U;
+        static const AkUniqueID PLAY_VRH_TAIK_HORNA_120 = 4144706703U;
+        static const AkUniqueID PLAY_VRH_TAIK_HORNB_143 = 39129637U;
+        static const AkUniqueID PLAY_VRH_TAIK_INTROKOTO_120 = 270155220U;
+        static const AkUniqueID PLAY_VRH_TAIK_INTROSTRINGSLOOP_120 = 2047931711U;
+        static const AkUniqueID PLAY_VRH_TAIK_KOTOA_120 = 3817474177U;
+        static const AkUniqueID PLAY_VRH_TAIK_SHAKAHACHI_120 = 236215806U;
+        static const AkUniqueID PLAY_VRH_TAIK_STRINGSB_143 = 1114293292U;
+        static const AkUniqueID PLAY_VRH_TAIK_STRINGSLEGA_120 = 912267708U;
+        static const AkUniqueID PLAY_VRH_TAIK_TAILKOLOOPA_120 = 2081615060U;
+        static const AkUniqueID PLAY_VRH_TAIK_TAILKOLOOPB_143 = 852315666U;
+        static const AkUniqueID STOP_VRH_TAIK_ASTRINGSLOOP_120 = 105408428U;
+        static const AkUniqueID STOP_VRH_TAIK_BASSA_120 = 3880093399U;
+        static const AkUniqueID STOP_VRH_TAIK_BASSB_143 = 959595373U;
+        static const AkUniqueID STOP_VRH_TAIK_BSTRINGSLOOP_143 = 1102538924U;
+        static const AkUniqueID STOP_VRH_TAIK_CELLOA_120 = 2580965139U;
+        static const AkUniqueID STOP_VRH_TAIK_CELLOB_143 = 1517662593U;
+        static const AkUniqueID STOP_VRH_TAIK_HORNA_120 = 3186126453U;
+        static const AkUniqueID STOP_VRH_TAIK_HORNB_143 = 1494490815U;
+        static const AkUniqueID STOP_VRH_TAIK_INTROKOTO_120 = 3483596190U;
+        static const AkUniqueID STOP_VRH_TAIK_INTROSTRINGSLOOP_120 = 3557786597U;
+        static const AkUniqueID STOP_VRH_TAIK_KOTOA_120 = 3056951711U;
+        static const AkUniqueID STOP_VRH_TAIK_SHAKAHACHI_120 = 1178541960U;
+        static const AkUniqueID STOP_VRH_TAIK_STRINGSB_143 = 3819311994U;
+        static const AkUniqueID STOP_VRH_TAIK_STRINGSLEGA_120 = 3043520462U;
+        static const AkUniqueID STOP_VRH_TAIK_TAILKOLOOPA_120 = 3226093662U;
+        static const AkUniqueID STOP_VRH_TAIK_TAILKOLOOPB_143 = 4095220136U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID FADEIN = 2561444246U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

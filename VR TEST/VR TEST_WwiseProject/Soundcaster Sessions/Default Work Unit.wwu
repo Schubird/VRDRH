@@ -4,17 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{B79386D6-6CC8-4568-A915-30E8223E8AB5}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundcasterSession Name="test1" ID="{946D0803-75AC-467E-A25B-A19EC33D5D2F}">
-					<ModuleList>
-						<Module>
-							<ObjectRef Name="Play_LobbyGuitar" ID="{91AB059B-2610-40A9-9D0E-6888684D17A9}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}"/>
-							<Position X="0" Y="0"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Guitar_Smash" ID="{FCC79C96-7C2A-4D69-90D1-16B0DD487FD6}" WorkUnitID="{2F1100F4-4D3F-4F59-82E7-B923C8D7C9D3}"/>
-							<Position X="0" Y="1"/>
-						</Module>
-					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="FadeIn" ID="{7EABEAC9-7C50-4FE9-A775-AEE716B248FB}"/>
+							<Value>10</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>

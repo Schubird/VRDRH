@@ -1,6 +1,733 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" SchemaVersion="89" RootDocumentID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}">
 	<AudioObjects>
-		<WorkUnit Name="TempMusic" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" OwnerID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}" PersistMode="Nested"/>
+		<WorkUnit Name="TempMusic" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" OwnerID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="IntroSection" ID="{5359FD30-6D29-4A31-9D67-F2C1A54E2038}" ShortID="156602386">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D166BFA4-E380-4727-B2BC-EC1E3B2205D8}" ShortID="596868551">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="FadeIn" ID="{7EABEAC9-7C50-4FE9-A775-AEE716B248FB}" WorkUnitID="{86716AB6-AD9B-4AB4-84CD-F2219765A268}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{E8A7AF9F-4F1A-4A02-933E-E0E2AFD218DC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>39.999</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>40</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Koto" ID="{73786FEA-45BC-4A1C-B0B7-BBAA202697F7}" ShortID="996622942">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_IntroKoto_120" ID="{2BBE1106-732B-4EDA-B3C6-0180E1726FAD}" ShortID="315401125">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_IntroKoto_120" ID="{5F0DD9B7-2A0C-49C1-973F-23533770A872}" ShortID="483192890">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_IntroKoto_120.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="694503596"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_IntroKoto_120" ID="{5F0DD9B7-2A0C-49C1-973F-23533770A872}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="PluckedStrings" ID="{B3651086-4F05-467C-8025-86F5755DB859}" ShortID="496352583">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_IntroStringsLoop_120" ID="{23CA6BC9-BDF0-483D-AE27-69E053624765}" ShortID="9756167">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_IntroStringsLoop_120" ID="{BAB0FF13-DD3D-4684-844B-A6B3AD60B81F}" ShortID="135407353">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_IntroStringsLoop_120.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="596165932"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_IntroStringsLoop_120" ID="{BAB0FF13-DD3D-4684-844B-A6B3AD60B81F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Shakahachi" ID="{59AA9C42-7A26-4477-9715-44B8DD31FD8B}" ShortID="448758545">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_Shakahachi_120" ID="{4013DBE0-A2AF-4574-BC24-B24F242EDFF4}" ShortID="814084489">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_Shakahachi_120" ID="{377A5C6C-066E-48FC-B197-E0AA7E27B36A}" ShortID="360373510">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_Shakahachi_120.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="140787269"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_Shakahachi_120" ID="{377A5C6C-066E-48FC-B197-E0AA7E27B36A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="ASection" ID="{DC55D43D-2078-4D5B-B4D4-835B4E826779}" ShortID="321013349">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{8DB46F01-0D0D-433C-BE66-BB3C157B8AF0}" ShortID="501507991">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="FadeIn" ID="{7EABEAC9-7C50-4FE9-A775-AEE716B248FB}" WorkUnitID="{86716AB6-AD9B-4AB4-84CD-F2219765A268}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BC06DC39-FCC7-4A27-991A-4264AD1AACE1}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>0.17373</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10.0217</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>40</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Koto" ID="{01445D16-19B5-46BE-AD6D-A1E78E7841F9}" ShortID="457535358">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_KotoA_120" ID="{6CA50560-3472-4813-84C6-289DAFEBE48F}" ShortID="1044064139">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_KotoA_120" ID="{31497239-7C54-416C-9D6E-60CCBB238C0C}" ShortID="232405788">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_KotoA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_KotoA_120" ID="{31497239-7C54-416C-9D6E-60CCBB238C0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="PluckedStrings" ID="{782BEFF9-2F2F-4E64-984E-1A6CE0668CE9}" ShortID="102602488">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_AStringsLoop_120" ID="{E79F8AC7-2258-4244-8D66-CB6DDC8633B2}" ShortID="622527451">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_AStringsLoop_120" ID="{197215A0-5DFC-450D-BE40-0480F30ABA7F}" ShortID="382669420">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_AStringsLoop_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_AStringsLoop_120" ID="{197215A0-5DFC-450D-BE40-0480F30ABA7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="LegStrings" ID="{99324EC0-BAC4-4CD9-8D35-66C2B8075F7E}" ShortID="172061833">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_StringsLegA_120" ID="{B700B271-40AC-4CF3-895B-B2BB98B54DE6}" ShortID="103899218">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_StringsLegA_120" ID="{920E71F4-E27C-485C-B366-82DF4805ACD5}" ShortID="56155337">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_StringsLegA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_StringsLegA_120" ID="{920E71F4-E27C-485C-B366-82DF4805ACD5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Horn" ID="{53EDD131-E460-4479-A639-1859A3D657D6}" ShortID="941070910">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_HornA_120" ID="{150069C0-DF75-4077-9C0F-E9141F28A960}" ShortID="920765814">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_HornA_120" ID="{A8DC2FE0-C240-4730-9225-1E13DD31EE43}" ShortID="335124400">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_HornA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_HornA_120" ID="{A8DC2FE0-C240-4730-9225-1E13DD31EE43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Cello" ID="{25957C25-197A-4A6F-9AAF-073137FFFDB0}" ShortID="965030523">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_CelloA_120" ID="{63EA9D01-6C55-464A-8DD5-79763DB12722}" ShortID="763309954">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_CelloA_120" ID="{E4CF5DA2-DB38-4D58-9B48-AA8F97537CFF}" ShortID="912444439">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_CelloA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_CelloA_120" ID="{E4CF5DA2-DB38-4D58-9B48-AA8F97537CFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Bass" ID="{80E8B0C2-D579-43B6-8F49-7AA561818FBB}" ShortID="1027884245">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_BassA_120" ID="{4CAA98E9-3501-4F3D-88EB-A6346B81818B}" ShortID="1012450813">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_BassA_120" ID="{8467CB8B-E544-4F32-B015-F838C6A42CBF}" ShortID="161234106">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_BassA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_BassA_120" ID="{8467CB8B-E544-4F32-B015-F838C6A42CBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Taiko" ID="{03A1FFF2-B09A-480C-89BC-EF9A0B2E15DE}" ShortID="219870744">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_TailkoLoopA_120" ID="{AA5B27E8-62ED-4421-82B8-23D4D7052F3D}" ShortID="190824918">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_TailkoLoopA_120" ID="{550C2F79-8E16-47BF-933C-D251315A6910}" ShortID="399181645">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_TailkoLoopA_120.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_TailkoLoopA_120" ID="{550C2F79-8E16-47BF-933C-D251315A6910}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="BSection" ID="{AE353BF2-ACFB-4A4B-AE3B-98595054AFCC}" ShortID="581980076">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{93E371B6-CE43-4594-9CCB-FE2019CD92FF}" ShortID="496320274">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="FadeIn" ID="{7EABEAC9-7C50-4FE9-A775-AEE716B248FB}" WorkUnitID="{86716AB6-AD9B-4AB4-84CD-F2219765A268}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{587B31EE-3E17-4206-B943-E71D62630270}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>4.96894</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>-200</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>40</XPos>
+												<YPos>-200</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Bass" ID="{3FA5A08D-8799-452E-A546-63B315D9D5BB}" ShortID="199901279">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_BassB_143" ID="{9342A4D7-4A51-4B61-ACC2-6AFDB19AA7FA}" ShortID="790905929">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_BassB_143" ID="{D2B7F857-3C05-4674-9F7B-61BEBEB61A02}" ShortID="504726760">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_BassB_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_BassB_143" ID="{D2B7F857-3C05-4674-9F7B-61BEBEB61A02}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Cello" ID="{AF56C784-686D-4D36-ADE4-D5A7B4F808E2}" ShortID="929795551">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_CelloB_143" ID="{DDC5CE77-F9C0-4508-B8A6-DE5838F48D4A}" ShortID="920674794">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_CelloB_143" ID="{61B7A24C-1B3A-4C3C-A700-5775C178724C}" ShortID="407713533">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_CelloB_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_CelloB_143" ID="{61B7A24C-1B3A-4C3C-A700-5775C178724C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Taiko" ID="{002FF2E8-4DE6-4C3E-A1C3-BF81C62ED37A}" ShortID="741081852">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_TailkoLoopB_143" ID="{9767F9AD-E7EE-4A62-9DC4-B8C5EFD336DB}" ShortID="671629026">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_TailkoLoopB_143" ID="{D58190B4-4AB5-436D-8DEF-2CDAE107277B}" ShortID="254747597">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_TailkoLoopB_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_TailkoLoopB_143" ID="{D58190B4-4AB5-436D-8DEF-2CDAE107277B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="LegStrings" ID="{5C7C91FE-8B3A-4AB5-A60C-4BEFFBF0ED45}" ShortID="584945102">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_StringsB_143" ID="{3D3472D4-F636-47BC-9CCD-3C53188973CE}" ShortID="22180088">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_StringsB_143" ID="{AC3AF792-ABBA-4208-AEC7-5E58F466E02E}" ShortID="1028860169">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_StringsB_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_StringsB_143" ID="{AC3AF792-ABBA-4208-AEC7-5E58F466E02E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Koto" ID="{AC0FF2B8-B1A9-4621-BF89-C573C6392EA9}" ShortID="958185914">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+						</ActorMixer>
+						<ActorMixer Name="Horn" ID="{F57A640C-D819-415D-92DD-009E0A3AF528}" ShortID="556445553">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_HornB_143" ID="{228F7B4C-A005-436B-9305-AA28B833ED5E}" ShortID="974148130">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_HornB_143" ID="{BE8C02C6-ED43-4150-9BD0-0D9A75DE8822}" ShortID="1030259222">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_HornB_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_HornB_143" ID="{BE8C02C6-ED43-4150-9BD0-0D9A75DE8822}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="PluckedStrings" ID="{997385B8-7128-45A0-818A-A5AEC06511DD}" ShortID="203403886">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VRH_Taik_BStringsLoop_143" ID="{1F9F4C47-5741-4BEA-82E1-160B59B733E2}" ShortID="22824107">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VRH_Taik_BStringsLoop_143" ID="{761275F2-32DB-458D-89F5-B0B75D4813AF}" ShortID="667597574">
+											<Language>SFX</Language>
+											<AudioFile>VRH_Taik_BStringsLoop_143.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VRH_Taik_BStringsLoop_143" ID="{761275F2-32DB-458D-89F5-B0B75D4813AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
