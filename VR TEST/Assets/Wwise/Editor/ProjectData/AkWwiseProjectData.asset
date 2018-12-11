@@ -39,10 +39,524 @@ MonoBehaviour:
         ObjectType: 7
       Path: Default Work Unit\Main
   EventWwu:
+  - PhysicalPath: Events\ASection.wwu
+    ParentPhysicalPath: Events\Theater_1.wwu
+    guid: e2432babee29f1429c427e51f5f8afc0
+    m_lastTime: -8586570965923230301
+    List:
+    - name: Play_VRH_Taik_AStringsLoop_120
+      guid: 227477859a602941a00afcf992f23517
+      id: 4113223378
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_AStringsLoop_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_AStringsLoop_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_BassA_120
+      guid: 46538e27c39d554cbca979a597a892d6
+      id: 1143094769
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_BassA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_BassA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_CelloA_120
+      guid: 6019ba22bcf69649a59549323f3e6a5f
+      id: 4158975229
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_CelloA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_CelloA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_HornA_120
+      guid: e0fdb0de341e0346945e74d647bc70f2
+      id: 4144706703
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_HornA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_HornA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_KotoA_120
+      guid: 3ca1f3ad0c5e0f4b9f465d9378fd38b3
+      id: 3817474177
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_KotoA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_KotoA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_StringsLegA_120
+      guid: 96da4ad5f4b5824a8e25848113986cc4
+      id: 912267708
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_StringsLegA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_StringsLegA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_TailkoLoopA_120
+      guid: cc7c443290537b4587200e517ede8d21
+      id: 2081615060
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_TailkoLoopA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\ASectionStop.wwu
+    ParentPhysicalPath: Events\ASection.wwu
+    guid: bcc293f422027f4eaa119733c51fef5c
+    m_lastTime: -8586570965381446096
+    List:
+    - name: Stop_VRH_Taik_AStringsLoop_120
+      guid: f8f28751f6655a4090ef6d9f41922dc0
+      id: 105408428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_AStringsLoop_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_AStringsLoop_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_BassA_120
+      guid: 71e95c00a6ad9c4294df21eff4beecd1
+      id: 3880093399
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_BassA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_BassA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_CelloA_120
+      guid: 8c5b7fcfa703d64db65204c1faad201f
+      id: 2580965139
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_CelloA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_CelloA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_HornA_120
+      guid: ed3fd07cd4af9f4298f23e694f506a4f
+      id: 3186126453
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_HornA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_HornA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_KotoA_120
+      guid: 5709f8b986cfe74bb7d21901bf4b8c25
+      id: 3056951711
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_KotoA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_KotoA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_StringsLegA_120
+      guid: af87a7ce4d51a04dbd29b2cfd302c6e8
+      id: 3043520462
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_StringsLegA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_StringsLegA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_TailkoLoopA_120
+      guid: f2a69d6931411e46ba6598e964e08c44
+      id: 3226093662
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: ASection
+        ObjectType: 12
+      - ElementName: ASectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_TailkoLoopA_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_TailkoLoopA_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\BSection.wwu
+    ParentPhysicalPath: Events\Theater_1.wwu
+    guid: a173e82fe1fd634d8f0fc4b606968259
+    m_lastTime: -8586570965923439422
+    List:
+    - name: Play_VRH_Taik_BassB_143
+      guid: 3c544c54dde0d042977dd5549ab1efb3
+      id: 77859747
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_BassB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BassB_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_BStringsLoop_143
+      guid: e86df118e51483428227e79aa7d4c96a
+      id: 823665582
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_BStringsLoop_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BStringsLoop_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_CelloB_143
+      guid: c958b8d89e8b0947b4d556db86adfa20
+      id: 3647195751
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_CelloB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_CelloB_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_HornB_143
+      guid: 38c769224c8482469e8806793fa70e45
+      id: 39129637
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_HornB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_HornB_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_StringsB_143
+      guid: 329ec98b0e81fc4ca669fbc5749a6fe0
+      id: 1114293292
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_StringsB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_StringsB_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_TailkoLoopB_143
+      guid: f761b0c2486d2849a5447a1b18f94183
+      id: 852315666
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_TailkoLoopB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_TailkoLoopB_143
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\BSectionStop.wwu
+    ParentPhysicalPath: Events\BSection.wwu
+    guid: 1451e53e02755747bff5639e3e2a1715
+    m_lastTime: -8586570965084634811
+    List:
+    - name: Stop_VRH_Taik_BassB_143
+      guid: 87af5b0d51f4fb43a1c7e1d74f8191b6
+      id: 959595373
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_BassB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BassB_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_BStringsLoop_143
+      guid: 40565a63f844dc4aa0a68f3b836483cc
+      id: 1102538924
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_BStringsLoop_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BStringsLoop_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_CelloB_143
+      guid: b44bcd82e8de7c4d92e0633f872a5b6f
+      id: 1517662593
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_CelloB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_CelloB_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_HornB_143
+      guid: a4690f6f81b0994189cdd92db5aee5c2
+      id: 1494490815
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_HornB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_HornB_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_StringsB_143
+      guid: bd8fe9cd85955d4c987af78f24ec17a5
+      id: 3819311994
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_StringsB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_StringsB_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_TailkoLoopB_143
+      guid: f1dbcc4c055cf94d9beccac02652c7ec
+      id: 4095220136
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BSection
+        ObjectType: 12
+      - ElementName: BSectionStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_TailkoLoopB_143
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_TailkoLoopB_143
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586571092778588449
+    m_lastTime: -8586570964323382420
     List:
     - name: Play_tech_beep_10
       guid: 9ca77a74e8321f49895e5b62dfcb0341
@@ -56,6 +570,11 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\EndingSection.wwu
+    ParentPhysicalPath: Events\Theater_1.wwu
+    guid: 62cb3a01b9f566449b46df10321775f4
+    m_lastTime: -8586570973209129182
+    List: []
   - PhysicalPath: Events\ENV.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: c34390d46aebaa429bfbd89629a1b967
@@ -89,10 +608,134 @@ MonoBehaviour:
     guid: df7c77254d7de74d8caff3a16d5071a3
     m_lastTime: -8586571882570686338
     List: []
+  - PhysicalPath: Events\IntroSection.wwu
+    ParentPhysicalPath: Events\Theater_1.wwu
+    guid: 8e88e161f0ce52489680d9abd6bff849
+    m_lastTime: -8586570965923559316
+    List:
+    - name: Play_VRH_Taik_IntroKoto_120
+      guid: 18d98c3204a9d94c90b93bbef1821f1e
+      id: 270155220
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_IntroKoto_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroKoto_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_IntroStringsLoop_120
+      guid: b74d0605e7ee294e84a33965215c040e
+      id: 2047931711
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_IntroStringsLoop_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroStringsLoop_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_VRH_Taik_Shakahachi_120
+      guid: 41b8547bee7add478b997e0ca00f8a2b
+      id: 236215806
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: Play_VRH_Taik_Shakahachi_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_Shakahachi_120
+      maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\IntroStop.wwu
+    ParentPhysicalPath: Events\IntroSection.wwu
+    guid: 060be1c9564c6c44b53901c85668beca
+    m_lastTime: -8586570964323282700
+    List:
+    - name: Stop_VRH_Taik_IntroKoto_120
+      guid: cc938b933342d5499f32ad63ef01b45b
+      id: 3483596190
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: IntroStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_IntroKoto_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroKoto_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_IntroStringsLoop_120
+      guid: 3100c9fe604e0c42bfff66350b299df0
+      id: 3557786597
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: IntroStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_IntroStringsLoop_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroStringsLoop_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_VRH_Taik_Shakahachi_120
+      guid: 9043358a55b2644b98150249636e8916
+      id: 1178541960
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: IntroSection
+        ObjectType: 12
+      - ElementName: IntroStop
+        ObjectType: 12
+      - ElementName: Stop_VRH_Taik_Shakahachi_120
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_Shakahachi_120
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\MX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: cc13c970d7a0644289f4efbc7dd62b34
-    m_lastTime: -8586571092777611065
+    m_lastTime: -8586570985946419227
     List:
     - name: Play_LobbyGuitar
       guid: 9b05ab911026a9409d0e6888684d17a9
@@ -108,31 +751,31 @@ MonoBehaviour:
       maxAttenuation: 25
       maxDuration: 0
       minDuration: 0
-    - name: Play_VRH_Theater_1
-      guid: c610152f00e2dc4b9917bdd53ba15be8
-      id: 1338298960
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: MX
-        ObjectType: 12
-      - ElementName: Play_VRH_Theater_1
-        ObjectType: 3
-      Path: Default Work Unit\MX\Play_VRH_Theater_1
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
   - PhysicalPath: Events\SX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: a5739950311d00479e641ebb54af33d9
     m_lastTime: -8586571882570596428
     List: []
+  - PhysicalPath: Events\Theater_1.wwu
+    ParentPhysicalPath: Events\MX.wwu
+    guid: 7116efb55eeda841b5c7c572a011149e
+    m_lastTime: -8586570965923339699
+    List: []
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b66a71869badb44a84cdf2219765a268
-    m_lastTime: -8586572252049273592
-    List: []
+    m_lastTime: -8586570941728744091
+    List:
+    - name: FadeIn
+      guid: c9eaab7e507ce94fa775aee716b248fb
+      id: 2561444246
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FadeIn
+        ObjectType: 13
+      Path: Default Work Unit\FadeIn
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -153,5 +796,11 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
+  - /VR TEST_WwiseProject/Events
+  - /VR TEST_WwiseProject/Events/Default Work Unit
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/IntroSection
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/IntroSection/IntroStop
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
