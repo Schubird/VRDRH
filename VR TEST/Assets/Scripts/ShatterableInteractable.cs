@@ -305,12 +305,10 @@ public class ShatterableInteractable : MonoBehaviour
     }
 
 #if UNITY_EDITOR
-    private void Update()
+    [ContextMenu("Shatter")]
+    private void TestShatter()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            ShatterObject(1f);
-        }
+        ShatterObject(1f);
     }
 #endif
 }
