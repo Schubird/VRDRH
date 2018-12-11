@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{61E1888E-CEF0-4852-9680-D9ABD6BFF849}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="IntroSection" ID="{61E1888E-CEF0-4852-9680-D9ABD6BFF849}" OwnerID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_VRH_Taik_Shakahachi_120" ID="{7B54B841-7AEE-47DD-8B99-7E0CA00F8A2B}">
+					<ChildrenList>
+						<Action Name="" ID="{84B6EF4E-6529-4DF7-BBB6-09903091B0FA}" ShortID="7214071">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_Shakahachi_120" ID="{4013DBE0-A2AF-4574-BC24-B24F242EDFF4}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_IntroKoto_120" ID="{328CD918-A904-4CD9-90B9-3BBEF1821F1E}">
+					<ChildrenList>
+						<Action Name="" ID="{766E25CA-56DD-4DEA-9EAA-0137E01BBD8F}" ShortID="275205464">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_IntroKoto_120" ID="{2BBE1106-732B-4EDA-B3C6-0180E1726FAD}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_IntroStringsLoop_120" ID="{05064DB7-EEE7-4E29-84A3-3965215C040E}">
+					<ChildrenList>
+						<Action Name="" ID="{6F7070FC-58AE-4CAD-9C6C-7D2AAF7F8A7C}" ShortID="71356886">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_IntroStringsLoop_120" ID="{23CA6BC9-BDF0-483D-AE27-69E053624765}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="IntroStop" ID="{C9E10B06-4C56-446C-B539-01C85668BECA}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

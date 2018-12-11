@@ -1,10 +1,61 @@
 Event	ID	Name			Wwise Object Path	Notes
+	39129637	Play_VRH_Taik_HornB_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_HornB_143	
+	77859747	Play_VRH_Taik_BassB_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BassB_143	
+	105408428	Stop_VRH_Taik_AStringsLoop_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_AStringsLoop_120	
+	236215806	Play_VRH_Taik_Shakahachi_120			\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_Shakahachi_120	
+	270155220	Play_VRH_Taik_IntroKoto_120			\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroKoto_120	
+	823665582	Play_VRH_Taik_BStringsLoop_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BStringsLoop_143	
+	852315666	Play_VRH_Taik_TailkoLoopB_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_TailkoLoopB_143	
+	912267708	Play_VRH_Taik_StringsLegA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_StringsLegA_120	
+	959595373	Stop_VRH_Taik_BassB_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BassB_143	
 	1045822128	Play_LobbyGuitar			\Default Work Unit\MX\Play_LobbyGuitar	
+	1102538924	Stop_VRH_Taik_BStringsLoop_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BStringsLoop_143	
+	1114293292	Play_VRH_Taik_StringsB_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_StringsB_143	
+	1143094769	Play_VRH_Taik_BassA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_BassA_120	
+	1178541960	Stop_VRH_Taik_Shakahachi_120			\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_Shakahachi_120	
+	1494490815	Stop_VRH_Taik_HornB_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_HornB_143	
+	1517662593	Stop_VRH_Taik_CelloB_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_CelloB_143	
+	2047931711	Play_VRH_Taik_IntroStringsLoop_120			\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroStringsLoop_120	
+	2081615060	Play_VRH_Taik_TailkoLoopA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120	
+	2580965139	Stop_VRH_Taik_CelloA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_CelloA_120	
+	3043520462	Stop_VRH_Taik_StringsLegA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_StringsLegA_120	
+	3056951711	Stop_VRH_Taik_KotoA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_KotoA_120	
+	3186126453	Stop_VRH_Taik_HornA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_HornA_120	
+	3226093662	Stop_VRH_Taik_TailkoLoopA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_TailkoLoopA_120	
+	3483596190	Stop_VRH_Taik_IntroKoto_120			\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroKoto_120	
 	3524807023	Play_tech_beep_10			\Default Work Unit\Play_tech_beep_10	
+	3557786597	Stop_VRH_Taik_IntroStringsLoop_120			\Default Work Unit\MX\Theater_1\IntroSection\IntroStop\Stop_VRH_Taik_IntroStringsLoop_120	
+	3647195751	Play_VRH_Taik_CelloB_143			\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_CelloB_143	
+	3817474177	Play_VRH_Taik_KotoA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_KotoA_120	
+	3819311994	Stop_VRH_Taik_StringsB_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_StringsB_143	
+	3880093399	Stop_VRH_Taik_BassA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_BassA_120	
 	3908617517	Play_Guitar_Smash			\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash	
+	4095220136	Stop_VRH_Taik_TailkoLoopB_143			\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_TailkoLoopB_143	
+	4113223378	Play_VRH_Taik_AStringsLoop_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_AStringsLoop_120	
+	4144706703	Play_VRH_Taik_HornA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_HornA_120	
+	4158975229	Play_VRH_Taik_CelloA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_CelloA_120	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2561444246	FadeIn			\Default Work Unit\FadeIn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	56155337	VRH_Taik_StringsLegA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_StringsLegA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\LegStrings\VRH_Taik_StringsLegA_120		2822464
+	140787269	VRH_Taik_Shakahachi_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_Shakahachi_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\IntroSection\Shakahachi\VRH_Taik_Shakahachi_120		5644864
+	161234106	VRH_Taik_BassA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_BassA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Bass\VRH_Taik_BassA_120		2822464
+	232405788	VRH_Taik_KotoA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_KotoA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Koto\VRH_Taik_KotoA_120		2822464
+	254747597	VRH_Taik_TailkoLoopB_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_TailkoLoopB_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\Taiko\VRH_Taik_TailkoLoopB_143		1184288
+	335124400	VRH_Taik_HornA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_HornA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Horn\VRH_Taik_HornA_120		2822464
 	350341648	tech_beep_10	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\tech_beep_10_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\tech_beep_10		44168
 	368825838	guitarloop	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\guitarloop_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\LobbyGuitar\Gutiar\guitarloop\guitarloop		798860
+	382669420	VRH_Taik_AStringsLoop_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_AStringsLoop_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\PluckedStrings\VRH_Taik_AStringsLoop_120		2822464
+	399181645	VRH_Taik_TailkoLoopA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_TailkoLoopA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Taiko\VRH_Taik_TailkoLoopA_120		2822464
 	400896686	Guitar_Smash	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\Wood_Crash_1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\SX\Instruments\Guitar\Smash\Smash\Guitar_Smash		223012
+	407713533	VRH_Taik_CelloB_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_CelloB_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\Cello\VRH_Taik_CelloB_143		2368512
+	504726760	VRH_Taik_BassB_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_BassB_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\Bass\VRH_Taik_BassB_143		2368512
+	596165932	VRH_Taik_IntroStringsLoop_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_IntroStringsLoop_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\IntroSection\PluckedStrings\VRH_Taik_IntroStringsLoop_120		1411264
+	667597574	VRH_Taik_BStringsLoop_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_BStringsLoop_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\PluckedStrings\VRH_Taik_BStringsLoop_143		2368512
+	694503596	VRH_Taik_IntroKoto_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_IntroKoto_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\IntroSection\Koto\VRH_Taik_IntroKoto_120		1411264
+	912444439	VRH_Taik_CelloA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_CelloA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Cello\VRH_Taik_CelloA_120		2822464
+	1028860169	VRH_Taik_StringsB_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_StringsB_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\LegStrings\VRH_Taik_StringsB_143		2368512
+	1030259222	VRH_Taik_HornB_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Windows\SFX\VRH_Taik_HornB_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\Horn\VRH_Taik_HornB_143		2368512
 

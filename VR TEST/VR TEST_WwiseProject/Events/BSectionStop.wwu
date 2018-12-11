@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3EE55114-7502-4757-BFF5-639E3E2A1715}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="BSectionStop" ID="{3EE55114-7502-4757-BFF5-639E3E2A1715}" OwnerID="{2FE873A1-FDE1-4D63-8F0F-C4B606968259}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Stop_VRH_Taik_StringsB_143" ID="{CDE98FBD-9585-4C5D-987A-F78F24EC17A5}">
+					<ChildrenList>
+						<Action Name="" ID="{7FEA0835-758D-4D6A-95C8-E0E64E944BF2}" ShortID="843670543">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_StringsB_143" ID="{3D3472D4-F636-47BC-9CCD-3C53188973CE}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_CelloB_143" ID="{82CD4BB4-DEE8-4D7C-92E0-633F872A5B6F}">
+					<ChildrenList>
+						<Action Name="" ID="{6BF51C4A-E046-4433-8666-63B2E7AF42C2}" ShortID="511052391">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_CelloB_143" ID="{DDC5CE77-F9C0-4508-B8A6-DE5838F48D4A}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_TailkoLoopB_143" ID="{4CCCDBF1-5C05-4DF9-9BEC-CAC02652C7EC}">
+					<ChildrenList>
+						<Action Name="" ID="{036A1511-D277-4D17-AD43-2BD34EFCD712}" ShortID="229699506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_TailkoLoopB_143" ID="{9767F9AD-E7EE-4A62-9DC4-B8C5EFD336DB}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_BStringsLoop_143" ID="{635A5640-44F8-4ADC-A0A6-8F3B836483CC}">
+					<ChildrenList>
+						<Action Name="" ID="{1601A1B6-8C79-4BB3-82BA-864C059414FC}" ShortID="848223814">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_BStringsLoop_143" ID="{1F9F4C47-5741-4BEA-82E1-160B59B733E2}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_BassB_143" ID="{0D5BAF87-F451-43FB-A1C7-E1D74F8191B6}">
+					<ChildrenList>
+						<Action Name="" ID="{F27EBFA9-D711-4FAB-BFDD-2E422932BC7B}" ShortID="758868569">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_BassB_143" ID="{9342A4D7-4A51-4B61-ACC2-6AFDB19AA7FA}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_VRH_Taik_HornB_143" ID="{6F0F69A4-B081-4199-89CD-D92DB5AEE5C2}">
+					<ChildrenList>
+						<Action Name="" ID="{C3C7F299-AFF7-4B28-8558-F3E00F4E13B1}" ShortID="856314409">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_HornB_143" ID="{228F7B4C-A005-436B-9305-AA28B833ED5E}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

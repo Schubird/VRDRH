@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{013ACB62-F5B9-4466-9B46-DF10321775F4}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="EndingSection" ID="{013ACB62-F5B9-4466-9B46-DF10321775F4}" OwnerID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" PersistMode="Nested"/>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="Theater_1" ID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" OwnerID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="ASection" ID="{AB2B43E2-29EE-42F1-9C42-7E51F5F8AFC0}" PersistMode="Reference"/>
+				<WorkUnit Name="BSection" ID="{2FE873A1-FDE1-4D63-8F0F-C4B606968259}" PersistMode="Reference"/>
+				<WorkUnit Name="EndingSection" ID="{013ACB62-F5B9-4466-9B46-DF10321775F4}" PersistMode="Reference"/>
+				<WorkUnit Name="IntroSection" ID="{61E1888E-CEF0-4852-9680-D9ABD6BFF849}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2FE873A1-FDE1-4D63-8F0F-C4B606968259}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="BSection" ID="{2FE873A1-FDE1-4D63-8F0F-C4B606968259}" OwnerID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_VRH_Taik_BassB_143" ID="{544C543C-E0DD-42D0-977D-D5549AB1EFB3}">
+					<ChildrenList>
+						<Action Name="" ID="{B327EA62-8187-4DA2-BD91-0D87D128B0C6}" ShortID="295431102">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_BassB_143" ID="{9342A4D7-4A51-4B61-ACC2-6AFDB19AA7FA}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_BStringsLoop_143" ID="{18F16DE8-14E5-4283-8227-E79AA7D4C96A}">
+					<ChildrenList>
+						<Action Name="" ID="{254352DE-7DDB-4B22-B849-1C674C13E7D9}" ShortID="597380379">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_BStringsLoop_143" ID="{1F9F4C47-5741-4BEA-82E1-160B59B733E2}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_CelloB_143" ID="{D8B858C9-8B9E-4709-B4D5-56DB86ADFA20}">
+					<ChildrenList>
+						<Action Name="" ID="{EFE53FDA-4006-43FF-A725-B59E1880D127}" ShortID="291394009">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_CelloB_143" ID="{DDC5CE77-F9C0-4508-B8A6-DE5838F48D4A}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_TailkoLoopB_143" ID="{C2B061F7-6D48-4928-A544-7A1B18F94183}">
+					<ChildrenList>
+						<Action Name="" ID="{7B20D471-AACF-4AB8-A92F-3D8FEC35A9C8}" ShortID="356681850">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_TailkoLoopB_143" ID="{9767F9AD-E7EE-4A62-9DC4-B8C5EFD336DB}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_StringsB_143" ID="{8BC99E32-810E-4CFC-A669-FBC5749A6FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{A4057434-8057-4709-BE67-57EB230B9770}" ShortID="260220646">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_StringsB_143" ID="{3D3472D4-F636-47BC-9CCD-3C53188973CE}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_VRH_Taik_HornB_143" ID="{2269C738-844C-4682-9E88-06793FA70E45}">
+					<ChildrenList>
+						<Action Name="" ID="{927022C3-BA9E-4D36-A60E-ACEE2C944C3A}" ShortID="8733415">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VRH_Taik_HornB_143" ID="{228F7B4C-A005-436B-9305-AA28B833ED5E}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<WorkUnit Name="BSectionStop" ID="{3EE55114-7502-4757-BFF5-639E3E2A1715}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
