@@ -21,8 +21,23 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>13.34586</XPos>
-											<YPos>-12.88409</YPos>
+											<XPos>3.1093</XPos>
+											<YPos>-4.47107</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>6.6897</XPos>
+											<YPos>-13.07838</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>9.79687</XPos>
+											<YPos>-23.08564</YPos>
+											<Flags>0</Flags>
+										</Point>
+										<Point>
+											<XPos>12.59422</XPos>
+											<YPos>-200</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>

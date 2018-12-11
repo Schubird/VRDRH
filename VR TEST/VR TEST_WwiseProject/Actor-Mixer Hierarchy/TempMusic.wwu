@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<ActorMixer Name="IntroSection" ID="{5359FD30-6D29-4A31-9D67-F2C1A54E2038}" ShortID="156602386">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
 							<RTPCList>
 								<RTPC Name="" ID="{D166BFA4-E380-4727-B2BC-EC1E3B2205D8}" ShortID="596868551">
@@ -45,6 +46,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Guitar" ID="{9C8221DD-CC9A-4BDF-A981-57440BFB8C44}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
 						</Reference>
@@ -208,6 +212,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Guitar" ID="{9C8221DD-CC9A-4BDF-A981-57440BFB8C44}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
 						</Reference>
@@ -503,6 +510,9 @@
 						</Property>
 					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Guitar" ID="{9C8221DD-CC9A-4BDF-A981-57440BFB8C44}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
 						</Reference>
