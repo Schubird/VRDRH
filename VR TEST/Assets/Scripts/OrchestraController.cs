@@ -23,7 +23,7 @@ public class OrchestraController : MonoBehaviour
     {
 
     }
-
+#if UNITY_EDITOR
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Alpha1))
@@ -42,7 +42,7 @@ public class OrchestraController : MonoBehaviour
             sectionRtpc.SetGlobalValue(10);
         }
     }
-
+#endif
     public void StartSection(int sectionNum)
     {
         switch (sectionNum)
@@ -55,6 +55,9 @@ public class OrchestraController : MonoBehaviour
                 break;
             case 2:
                 sectionRtpc.SetGlobalValue(10);
+                break;
+            case 3:
+                sectionRtpc.SetGlobalValue(15);
                 break;
             default:
                 break;
