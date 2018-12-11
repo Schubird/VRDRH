@@ -11,8 +11,8 @@ public class OrchestraController : MonoBehaviour
 
     public Instrument[] instruments;
 
-    AK.Wwise.Event playAllEvent;
-    AK.Wwise.RTPC sectionRtpc;
+    public AK.Wwise.Event playAllEvent;
+    public AK.Wwise.RTPC sectionRtpc;
     
 
     //public float crossFadeTime = 0.1f;
