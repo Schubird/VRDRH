@@ -35,10 +35,10 @@
             {
                 Debug.Log(outputOnMax);
 
-                print("YaLikeJazz");
+                //print("YaLikeJazz");
 
                 // Play Wwise Event
-                buttonEvent.Post(gameObject);
+                //buttonEvent.Post(gameObject);
 
             }
         }

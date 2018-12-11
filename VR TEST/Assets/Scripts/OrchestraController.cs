@@ -48,6 +48,7 @@ public class OrchestraController : MonoBehaviour
         switch (sectionNum)
         {
             case 0:
+                StartOrchastra();
                 sectionRtpc.SetGlobalValue(0);
                 break;
             case 1:
