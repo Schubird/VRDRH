@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" SchemaVersion="89" RootDocumentID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}">
+	<AudioObjects>
+		<WorkUnit Name="TempMusic" ID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}" OwnerID="{EFC2B3D4-AD2B-4C62-95F2-AF797855FCB8}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>
