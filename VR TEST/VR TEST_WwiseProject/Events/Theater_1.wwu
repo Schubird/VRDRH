@@ -7,6 +7,7 @@
 				<WorkUnit Name="BSection" ID="{2FE873A1-FDE1-4D63-8F0F-C4B606968259}" PersistMode="Reference"/>
 				<WorkUnit Name="EndingSection" ID="{013ACB62-F5B9-4466-9B46-DF10321775F4}" PersistMode="Reference"/>
 				<WorkUnit Name="IntroSection" ID="{61E1888E-CEF0-4852-9680-D9ABD6BFF849}" PersistMode="Reference"/>
+				<Event Name="BlankEvent" ID="{BE24F121-E10C-4E09-9A78-F66C016A96B9}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

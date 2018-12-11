@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLANKEVENT = 2889679211U;
         static const AkUniqueID PLAY_GUITAR_SMASH = 3908617517U;
         static const AkUniqueID PLAY_LOBBYGUITAR = 1045822128U;
         static const AkUniqueID PLAY_TECH_BEEP_10 = 3524807023U;

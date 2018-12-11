@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 93b226e38b3ef047a4a0b81f13c657c5
-    m_lastTime: -8586571763836054084
+    m_lastTime: -8586570867987914870
     List:
     - name: Main
       guid: 1edb70d0481daa4ab3633968272738c7
@@ -759,8 +759,24 @@ MonoBehaviour:
   - PhysicalPath: Events\Theater_1.wwu
     ParentPhysicalPath: Events\MX.wwu
     guid: 7116efb55eeda841b5c7c572a011149e
-    m_lastTime: -8586570965923339699
-    List: []
+    m_lastTime: -8586570867988074363
+    List:
+    - name: BlankEvent
+      guid: 21f124be0ce1094e9a78f66c016a96b9
+      id: 2889679211
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Theater_1
+        ObjectType: 12
+      - ElementName: BlankEvent
+        ObjectType: 3
+      Path: Default Work Unit\MX\Theater_1\BlankEvent
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -800,7 +816,6 @@ MonoBehaviour:
   - /VR TEST_WwiseProject/Events/Default Work Unit
   - /VR TEST_WwiseProject/Events/Default Work Unit/MX
   - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1
-  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/IntroSection
-  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/IntroSection/IntroStop
+  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/ASection
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

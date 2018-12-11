@@ -21,6 +21,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2889679211" Name="BlankEvent" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BlankEvent" MaxAttenuation="0.000000"/>
 				<Event Id="3908617517" Name="Play_Guitar_Smash" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash"/>
 				<Event Id="1045822128" Name="Play_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Play_LobbyGuitar" MaxAttenuation="25.000000"/>
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>

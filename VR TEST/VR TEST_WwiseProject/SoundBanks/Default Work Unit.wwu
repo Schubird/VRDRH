@@ -9,6 +9,7 @@
 						<ObjectRef Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" WorkUnitID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SX" ID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="BlankEvent" ID="{BE24F121-E10C-4E09-9A78-F66C016A96B9}" WorkUnitID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

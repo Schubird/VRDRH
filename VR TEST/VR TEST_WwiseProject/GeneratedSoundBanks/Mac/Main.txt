@@ -18,6 +18,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2047931711	Play_VRH_Taik_IntroStringsLoop_120			\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroStringsLoop_120	
 	2081615060	Play_VRH_Taik_TailkoLoopA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120	
 	2580965139	Stop_VRH_Taik_CelloA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_CelloA_120	
+	2889679211	BlankEvent			\Default Work Unit\MX\Theater_1\BlankEvent	
 	3043520462	Stop_VRH_Taik_StringsLegA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_StringsLegA_120	
 	3056951711	Stop_VRH_Taik_KotoA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_KotoA_120	
 	3186126453	Stop_VRH_Taik_HornA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_HornA_120	
