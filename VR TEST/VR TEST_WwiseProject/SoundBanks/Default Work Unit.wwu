@@ -6,10 +6,15 @@
 				<SoundBank Name="Main" ID="{D070DB1E-1D48-4AAA-B363-3968272738C7}">
 					<ObjectInclusionList>
 						<ObjectRef Name="MX" ID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_melody" ID="{3E86DD44-DB6E-444E-960A-14055D6B0446}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" WorkUnitID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_tech_beep_10" ID="{747AA79C-32E8-491F-895E-5B62DFCB0341}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Guitar" ID="{E00F8D91-ABA8-49D1-ACF4-D0CC9A8C0F4B}" WorkUnitID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Horn" ID="{4B221C19-CF90-49DB-B032-5E1C33641AFA}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_synth" ID="{BFC7EDA9-B911-4B47-8382-E8EF58AABA89}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="SX" ID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" WorkUnitID="{3B05FF7C-2C33-4D8C-A5F6-F804751552DC}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BlankEvent" ID="{BE24F121-E10C-4E09-9A78-F66C016A96B9}" WorkUnitID="{B5EF1671-ED5E-41A8-B5C7-C572A011149E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_voice" ID="{E5100AB0-279B-4F08-97E5-ED2E3692840D}" WorkUnitID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

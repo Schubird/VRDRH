@@ -737,6 +737,122 @@
 						</ActorMixer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Lobby" ID="{742A28F1-B932-4A72-B7B4-2494E8445584}" ShortID="56860218">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Horn" ID="{2239371E-F746-49D7-B890-6D7B67C12335}" ShortID="543606663">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lobby" ID="{70856A4E-9DBE-43D6-9FD3-51AC3744BBCE}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Horn" ID="{FA9DDE0E-BAA0-4F27-B1A1-4EB78D39C248}" ShortID="646266712">
+									<Language>SFX</Language>
+									<AudioFile>Horn.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Horn" ID="{FA9DDE0E-BAA0-4F27-B1A1-4EB78D39C248}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="melody" ID="{A0F66868-B2E8-45BC-8254-C811E5E50F2A}" ShortID="883852110">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lobby" ID="{70856A4E-9DBE-43D6-9FD3-51AC3744BBCE}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="melody" ID="{EE240CB2-D1D9-4C49-8918-44221D7E5D9D}" ShortID="695469826">
+									<Language>SFX</Language>
+									<AudioFile>melody.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="melody" ID="{EE240CB2-D1D9-4C49-8918-44221D7E5D9D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="synth" ID="{DA017C4E-E0AE-4C1C-8370-92DCC0F161A1}" ShortID="539571325">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lobby" ID="{70856A4E-9DBE-43D6-9FD3-51AC3744BBCE}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="synth" ID="{889E1A6C-D06D-4EA2-B4E9-E14890F50CEE}" ShortID="783795774">
+									<Language>SFX</Language>
+									<AudioFile>synth.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="synth" ID="{889E1A6C-D06D-4EA2-B4E9-E14890F50CEE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="voice" ID="{70D0DDEB-2BB1-4E03-A0FF-CC15160E56A0}" ShortID="143965112">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lobby" ID="{70856A4E-9DBE-43D6-9FD3-51AC3744BBCE}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="voice" ID="{2FA6C015-4A8B-48C0-B6F8-814F3C3070F1}" ShortID="918428353">
+									<Language>SFX</Language>
+									<AudioFile>voice.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="voice" ID="{2FA6C015-4A8B-48C0-B6F8-814F3C3070F1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

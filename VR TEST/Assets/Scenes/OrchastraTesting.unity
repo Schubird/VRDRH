@@ -445,8 +445,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e7ad6fd899e62d4c98a25ae92b9b8d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sectionStartEvents: []
-  sectionStopEvents: []
+  sectionStartEvents:
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9beabcdff7a633f4f800696d4fbf27ad,
+      type: 2}
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: e9231dfa41507c84c8afc9b22569efee,
+      type: 2}
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a9b04853a980634d8c249abc7717f1e,
+      type: 2}
+  sectionStopEvents:
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 0}
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 0}
+  - valueGuid: 
+    WwiseObjectReference: {fileID: 0}
   volumeRtpc:
     valueGuid: 
     WwiseObjectReference: {fileID: 0}

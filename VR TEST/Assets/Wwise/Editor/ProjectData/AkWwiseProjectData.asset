@@ -27,7 +27,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 93b226e38b3ef047a4a0b81f13c657c5
-    m_lastTime: -8586570867987914870
+    m_lastTime: -8586570627387522726
     List:
     - name: Main
       guid: 1edb70d0481daa4ab3633968272738c7
@@ -556,7 +556,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586570964323382420
+    m_lastTime: -8586570630066337738
     List:
     - name: Play_tech_beep_10
       guid: 9ca77a74e8321f49895e5b62dfcb0341
@@ -735,8 +735,22 @@ MonoBehaviour:
   - PhysicalPath: Events\MX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: cc13c970d7a0644289f4efbc7dd62b34
-    m_lastTime: -8586570985946419227
+    m_lastTime: -8586570630066247981
     List:
+    - name: Play_Horn
+      guid: 191c224b90cfdb49b0325e1c33641afa
+      id: 2956245481
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_Horn
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_Horn
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Play_LobbyGuitar
       guid: 9b05ab911026a9409d0e6888684d17a9
       id: 1045822128
@@ -749,6 +763,48 @@ MonoBehaviour:
         ObjectType: 3
       Path: Default Work Unit\MX\Play_LobbyGuitar
       maxAttenuation: 25
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_melody
+      guid: 44dd863e6edb4e44960a14055d6b0446
+      id: 361532258
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_melody
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_melody
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_synth
+      guid: a9edc7bf11b9474b8382e8ef58aaba89
+      id: 1710256744
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_synth
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_synth
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_voice
+      guid: b00a10e59b27084f97e5ed2e3692840d
+      id: 1642680936
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MX
+        ObjectType: 12
+      - ElementName: Play_voice
+        ObjectType: 3
+      Path: Default Work Unit\MX\Play_voice
+      maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
   - PhysicalPath: Events\SX.wwu
@@ -815,7 +871,5 @@ MonoBehaviour:
   - /VR TEST_WwiseProject/Events
   - /VR TEST_WwiseProject/Events/Default Work Unit
   - /VR TEST_WwiseProject/Events/Default Work Unit/MX
-  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1
-  - /VR TEST_WwiseProject/Events/Default Work Unit/MX/Theater_1/ASection
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

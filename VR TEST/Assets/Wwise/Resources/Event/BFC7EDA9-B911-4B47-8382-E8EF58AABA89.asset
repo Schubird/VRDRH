@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: be74e412e85615d4689d4df4bafbe89c, type: 3}
-  m_Name: 91AB059B-2610-40A9-9D0E-6888684D17A9
+  m_Name: BFC7EDA9-B911-4B47-8382-E8EF58AABA89
   m_EditorClassIdentifier: 
-  objectName: Play_LobbyGuitar
-  id: 1045822128
-  guid: 91AB059B-2610-40A9-9D0E-6888684D17A9
+  objectName: Play_synth
+  id: 1710256744
+  guid: BFC7EDA9-B911-4B47-8382-E8EF58AABA89

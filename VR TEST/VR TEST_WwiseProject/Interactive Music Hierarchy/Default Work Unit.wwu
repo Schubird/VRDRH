@@ -35,9 +35,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="guitarloop" ID="{B740FEBC-CAD4-4AA2-BBD7-BEF69408D102}" ShortID="1050201016">
+								<MusicSegment Name="guitarloop" ID="{C7300463-88EE-4796-8672-2D9A98324F92}" ShortID="430753110">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="4528.32199546485"/>
+										<Property Name="EndPosition" Type="Real64" Value="19200.022675737"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -48,29 +48,20 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="guitarloop" ID="{BC5002A2-1E7C-4D62-93D8-1C22200004CD}" ShortID="379335585">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ModifierList>
-														<ModifierInfo>
-															<Modifier Name="" ID="{170EAACB-9FF8-4E4F-B866-323C7C32BC1F}"/>
-														</ModifierInfo>
-													</ModifierList>
-												</Property>
-											</PropertyList>
+										<MusicTrack Name="guitarloop" ID="{741CAA80-0436-41AA-8E27-2A8B4BCD858B}" ShortID="900648769">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="guitarloop" ID="{988DD9B4-DF67-4EBD-8B43-802ED6FAAD90}" ShortID="368825838">
+												<AudioFileSource Name="guitarloop" ID="{53546824-89EA-4440-9E56-0923A310F888}" ShortID="773983522">
 													<Language>SFX</Language>
 													<AudioFile>guitarloop.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{87C0824F-86AF-458B-B458-69D2F2206F4D}">
+												<MusicTransition Name="Root" ID="{2E26DF6A-B729-4CE2-877A-6AF86D4A2B8E}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -78,15 +69,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{1C62F9B0-C235-4347-8355-E740A32C4C42}">
+												<MusicTrackSequence Name="" ID="{FAD180DC-4E5E-4300-ABB3-A74DA43A52F8}">
 													<ClipList>
-														<MusicClip Name="guitarloop" ID="{AEF2AAFE-8C4A-4DE1-A166-5A7C247C43D7}">
+														<MusicClip Name="guitarloop" ID="{E6B09ADD-4FDA-43BD-A8BB-A68264402C0E}">
 															<PropertyList>
-																<Property Name="EndTrimOffset" Type="Real64" Value="4528.32199546485"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="19200.022675737"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
 															</PropertyList>
-															<AudioSourceRef Name="guitarloop" ID="{988DD9B4-DF67-4EBD-8B43-802ED6FAAD90}"/>
+															<AudioSourceRef Name="guitarloop" ID="{53546824-89EA-4440-9E56-0923A310F888}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -94,11 +85,11 @@
 										</MusicTrack>
 									</ChildrenList>
 									<CueList>
-										<MusicCue Name="Entry Cue" ID="{48C788C7-5CBD-484D-9797-F6D7B69A3D99}"/>
-										<MusicCue Name="Exit Cue" ID="{AD976559-F59F-4790-B13D-3636BA97FFEE}">
+										<MusicCue Name="Entry Cue" ID="{D90B1F9E-CB49-4B4C-92C7-A8C660693C6B}"/>
+										<MusicCue Name="Exit Cue" ID="{88B07789-573C-4784-ADC2-AC7ABE8254A1}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="4528.32199546485"/>
+												<Property Name="TimeMs" Type="Real64" Value="19200.022675737"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -120,12 +111,12 @@
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{F9B25183-0DFE-4CBF-B74B-8C2300D713C2}" ShortID="19819426">
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{3FBD52AF-F720-4EF3-BFB6-5AA338D6676D}" ShortID="313744064">
+										<MusicPlaylistItem Name="" ID="{36AD9291-5538-40A7-9FC3-742C5D1AC38B}" ShortID="376616756">
 											<PropertyList>
 												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="guitarloop" ID="{B740FEBC-CAD4-4AA2-BBD7-BEF69408D102}"/>
+											<SegmentRef Name="guitarloop" ID="{C7300463-88EE-4796-8672-2D9A98324F92}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>

@@ -20,6 +20,20 @@
 				<WorkUnit Name="SX" ID="{509973A5-1D31-4700-9E64-1EBB54AF33D9}" PersistMode="Reference"/>
 				<WorkUnit Name="MX" ID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" PersistMode="Reference"/>
 				<WorkUnit Name="ENV" ID="{D49043C3-EB6A-42AA-9BFB-D89629A1B967}" PersistMode="Reference"/>
+				<Event Name="Play_Guitar" ID="{E00F8D91-ABA8-49D1-ACF4-D0CC9A8C0F4B}">
+					<ChildrenList>
+						<Action Name="" ID="{6896E5A8-C181-4C65-9BE9-C6985E612711}" ShortID="905650235">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gutiar" ID="{B9ECC588-622F-48E8-AC07-727D62F89C7B}" WorkUnitID="{ABDFA279-D4DD-4226-922B-D233535121A0}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

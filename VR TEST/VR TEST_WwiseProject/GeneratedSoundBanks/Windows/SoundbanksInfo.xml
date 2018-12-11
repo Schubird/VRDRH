@@ -22,9 +22,13 @@
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="2889679211" Name="BlankEvent" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BlankEvent" MaxAttenuation="0.000000"/>
+				<Event Id="3564911592" Name="Play_Guitar" ObjectPath="\Events\Default Work Unit\Play_Guitar" MaxAttenuation="25.000000"/>
 				<Event Id="3908617517" Name="Play_Guitar_Smash" ObjectPath="\Events\Default Work Unit\SX\Interacts\Instruments\Play_Guitar_Smash"/>
-				<Event Id="1045822128" Name="Play_LobbyGuitar" ObjectPath="\Events\Default Work Unit\MX\Play_LobbyGuitar" MaxAttenuation="25.000000"/>
+				<Event Id="2956245481" Name="Play_Horn" ObjectPath="\Events\Default Work Unit\MX\Play_Horn" MaxAttenuation="100.000000"/>
+				<Event Id="361532258" Name="Play_melody" ObjectPath="\Events\Default Work Unit\MX\Play_melody" MaxAttenuation="100.000000"/>
+				<Event Id="1710256744" Name="Play_synth" ObjectPath="\Events\Default Work Unit\MX\Play_synth" MaxAttenuation="100.000000"/>
 				<Event Id="3524807023" Name="Play_tech_beep_10" ObjectPath="\Events\Default Work Unit\Play_tech_beep_10"/>
+				<Event Id="1642680936" Name="Play_voice" ObjectPath="\Events\Default Work Unit\MX\Play_voice" MaxAttenuation="100.000000"/>
 				<Event Id="4113223378" Name="Play_VRH_Taik_AStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_AStringsLoop_120" MaxAttenuation="25.000000"/>
 				<Event Id="1143094769" Name="Play_VRH_Taik_BassA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_BassA_120" MaxAttenuation="25.000000"/>
 				<Event Id="77859747" Name="Play_VRH_Taik_BassB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_BassB_143" MaxAttenuation="25.000000"/>
@@ -87,10 +91,6 @@
 					<ShortName>tech_beep_10.wav</ShortName>
 					<Path>SFX\tech_beep_10_56D34C19.wem</Path>
 				</File>
-				<File Id="368825838" Language="SFX">
-					<ShortName>guitarloop.wav</ShortName>
-					<Path>SFX\guitarloop_8956FC97.wem</Path>
-				</File>
 				<File Id="382669420" Language="SFX">
 					<ShortName>VRH_Taik_AStringsLoop_120.wav</ShortName>
 					<Path>SFX\VRH_Taik_AStringsLoop_120_8956FC97.wem</Path>
@@ -115,6 +115,10 @@
 					<ShortName>VRH_Taik_IntroStringsLoop_120.wav</ShortName>
 					<Path>SFX\VRH_Taik_IntroStringsLoop_120_8956FC97.wem</Path>
 				</File>
+				<File Id="646266712" Language="SFX">
+					<ShortName>Horn.wav</ShortName>
+					<Path>SFX\Horn_56D34C19.wem</Path>
+				</File>
 				<File Id="667597574" Language="SFX">
 					<ShortName>VRH_Taik_BStringsLoop_143.wav</ShortName>
 					<Path>SFX\VRH_Taik_BStringsLoop_143_8956FC97.wem</Path>
@@ -123,9 +127,25 @@
 					<ShortName>VRH_Taik_IntroKoto_120.wav</ShortName>
 					<Path>SFX\VRH_Taik_IntroKoto_120_8956FC97.wem</Path>
 				</File>
+				<File Id="695469826" Language="SFX">
+					<ShortName>melody.wav</ShortName>
+					<Path>SFX\melody_56D34C19.wem</Path>
+				</File>
+				<File Id="773983522" Language="SFX">
+					<ShortName>guitarloop.wav</ShortName>
+					<Path>SFX\guitarloop_8956FC97.wem</Path>
+				</File>
+				<File Id="783795774" Language="SFX">
+					<ShortName>synth.wav</ShortName>
+					<Path>SFX\synth_56D34C19.wem</Path>
+				</File>
 				<File Id="912444439" Language="SFX">
 					<ShortName>VRH_Taik_CelloA_120.wav</ShortName>
 					<Path>SFX\VRH_Taik_CelloA_120_8956FC97.wem</Path>
+				</File>
+				<File Id="918428353" Language="SFX">
+					<ShortName>voice.wav</ShortName>
+					<Path>SFX\voice_56D34C19.wem</Path>
 				</File>
 				<File Id="1028860169" Language="SFX">
 					<ShortName>VRH_Taik_StringsB_143.wav</ShortName>

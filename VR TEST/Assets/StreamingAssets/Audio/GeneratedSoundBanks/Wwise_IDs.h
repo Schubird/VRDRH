@@ -14,9 +14,13 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BLANKEVENT = 2889679211U;
+        static const AkUniqueID PLAY_GUITAR = 3564911592U;
         static const AkUniqueID PLAY_GUITAR_SMASH = 3908617517U;
-        static const AkUniqueID PLAY_LOBBYGUITAR = 1045822128U;
+        static const AkUniqueID PLAY_HORN = 2956245481U;
+        static const AkUniqueID PLAY_MELODY = 361532258U;
+        static const AkUniqueID PLAY_SYNTH = 1710256744U;
         static const AkUniqueID PLAY_TECH_BEEP_10 = 3524807023U;
+        static const AkUniqueID PLAY_VOICE = 1642680936U;
         static const AkUniqueID PLAY_VRH_TAIK_ASTRINGSLOOP_120 = 4113223378U;
         static const AkUniqueID PLAY_VRH_TAIK_BASSA_120 = 1143094769U;
         static const AkUniqueID PLAY_VRH_TAIK_BASSB_143 = 77859747U;
