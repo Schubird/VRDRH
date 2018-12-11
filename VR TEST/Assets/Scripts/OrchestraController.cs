@@ -29,17 +29,17 @@ public class OrchestraController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             StartOrchastra();
-            sectionRtpc.SetValue(gameObject, 0);
+            sectionRtpc.SetGlobalValue(0);
         }
         else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             // Section A
-            sectionRtpc.SetValue(gameObject, 5);
+            sectionRtpc.SetGlobalValue(5);
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha1))
+        else if(Input.GetKeyDown(KeyCode.Alpha3))
         {
             // Section B
-            sectionRtpc.SetValue(gameObject, 10);
+            sectionRtpc.SetGlobalValue(10);
         }
     }
 
@@ -48,13 +48,13 @@ public class OrchestraController : MonoBehaviour
         switch (sectionNum)
         {
             case 0:
-                sectionRtpc.SetValue(gameObject, 0);
+                sectionRtpc.SetGlobalValue(0);
                 break;
             case 1:
-                sectionRtpc.SetValue(gameObject, 5);
+                sectionRtpc.SetGlobalValue(5);
                 break;
             case 2:
-                sectionRtpc.SetValue(gameObject, 10);
+                sectionRtpc.SetGlobalValue(10);
                 break;
             default:
                 break;
