@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be74e412e85615d4689d4df4bafbe89c, type: 3}
+  m_Name: 278E5346-9DC3-4C55-BCA9-79A597A892D6
+  m_EditorClassIdentifier: 
+  objectName: Play_VRH_Taik_BassA_120
+  id: 1143094769
+  guid: 278E5346-9DC3-4C55-BCA9-79A597A892D6
