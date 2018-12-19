@@ -15,19 +15,19 @@ MonoBehaviour:
   - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: d1707d0774b0e8498942913ce18e5d17
-    m_lastTime: -8586572252047095760
+    m_lastTime: -8586570842897286486
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 55da0278327f914f87b375b1a02c2b5d
-    m_lastTime: -8586572252047664529
+    m_lastTime: -8586570842907698643
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 93b226e38b3ef047a4a0b81f13c657c5
-    m_lastTime: -8586570618656818175
+    m_lastTime: -8586568722942312926
     List:
     - name: Main
       guid: 1edb70d0481daa4ab3633968272738c7
@@ -42,7 +42,7 @@ MonoBehaviour:
   - PhysicalPath: Events\ASection.wwu
     ParentPhysicalPath: Events\Theater_1.wwu
     guid: e2432babee29f1429c427e51f5f8afc0
-    m_lastTime: -8586570965923230301
+    m_lastTime: -8586570842913652709
     List:
     - name: Play_VRH_Taik_AStringsLoop_120
       guid: 227477859a602941a00afcf992f23517
@@ -173,7 +173,7 @@ MonoBehaviour:
   - PhysicalPath: Events\ASectionStop.wwu
     ParentPhysicalPath: Events\ASection.wwu
     guid: bcc293f422027f4eaa119733c51fef5c
-    m_lastTime: -8586570965381446096
+    m_lastTime: -8586570842913652709
     List:
     - name: Stop_VRH_Taik_AStringsLoop_120
       guid: f8f28751f6655a4090ef6d9f41922dc0
@@ -318,7 +318,7 @@ MonoBehaviour:
   - PhysicalPath: Events\BSection.wwu
     ParentPhysicalPath: Events\Theater_1.wwu
     guid: a173e82fe1fd634d8f0fc4b606968259
-    m_lastTime: -8586570965923439422
+    m_lastTime: -8586570842913642739
     List:
     - name: Play_VRH_Taik_BassB_143
       guid: 3c544c54dde0d042977dd5549ab1efb3
@@ -431,7 +431,7 @@ MonoBehaviour:
   - PhysicalPath: Events\BSectionStop.wwu
     ParentPhysicalPath: Events\BSection.wwu
     guid: 1451e53e02755747bff5639e3e2a1715
-    m_lastTime: -8586570965084634811
+    m_lastTime: -8586570842913632767
     List:
     - name: Stop_VRH_Taik_BassB_143
       guid: 87af5b0d51f4fb43a1c7e1d74f8191b6
@@ -556,7 +556,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: fc4ab22cd18fcd47999d005d226f0b61
-    m_lastTime: -8586570618656997696
+    m_lastTime: -8586568722973529405
     List:
     - name: Play_Guitar
       guid: 918d0fe0a8abd149acf4d0cc9a8c0f4b
@@ -585,17 +585,17 @@ MonoBehaviour:
   - PhysicalPath: Events\EndingSection.wwu
     ParentPhysicalPath: Events\Theater_1.wwu
     guid: 62cb3a01b9f566449b46df10321775f4
-    m_lastTime: -8586570973209129182
+    m_lastTime: -8586570842913562939
     List: []
   - PhysicalPath: Events\ENV.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: c34390d46aebaa429bfbd89629a1b967
-    m_lastTime: -8586571882904378465
+    m_lastTime: -8586570842913582901
     List: []
   - PhysicalPath: Events\Instruments.wwu
     ParentPhysicalPath: Events\Interacts.wwu
     guid: f400112f3f4d594f82e7b923c8d7c9d3
-    m_lastTime: -8586571763835814728
+    m_lastTime: -8586570842913503106
     List:
     - name: Play_Guitar_Smash
       guid: 969cc7fc2a7c694d90d116b0dd487fd6
@@ -618,12 +618,12 @@ MonoBehaviour:
   - PhysicalPath: Events\Interacts.wwu
     ParentPhysicalPath: Events\SX.wwu
     guid: df7c77254d7de74d8caff3a16d5071a3
-    m_lastTime: -8586571882570686338
+    m_lastTime: -8586570842913493139
     List: []
   - PhysicalPath: Events\IntroSection.wwu
     ParentPhysicalPath: Events\Theater_1.wwu
     guid: 8e88e161f0ce52489680d9abd6bff849
-    m_lastTime: -8586570965923559316
+    m_lastTime: -8586570842913483031
     List:
     - name: Play_VRH_Taik_IntroKoto_120
       guid: 18d98c3204a9d94c90b93bbef1821f1e
@@ -682,7 +682,7 @@ MonoBehaviour:
   - PhysicalPath: Events\IntroStop.wwu
     ParentPhysicalPath: Events\IntroSection.wwu
     guid: 060be1c9564c6c44b53901c85668beca
-    m_lastTime: -8586570964323282700
+    m_lastTime: -8586570842913473199
     List:
     - name: Stop_VRH_Taik_IntroKoto_120
       guid: cc938b933342d5499f32ad63ef01b45b
@@ -747,7 +747,7 @@ MonoBehaviour:
   - PhysicalPath: Events\MX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: cc13c970d7a0644289f4efbc7dd62b34
-    m_lastTime: -8586570618656718441
+    m_lastTime: -8586568722973499485
     List:
     - name: Play_Horn
       guid: 191c224b90cfdb49b0325e1c33641afa
@@ -808,12 +808,12 @@ MonoBehaviour:
   - PhysicalPath: Events\SX.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: a5739950311d00479e641ebb54af33d9
-    m_lastTime: -8586571882570596428
+    m_lastTime: -8586570842913463226
     List: []
   - PhysicalPath: Events\Theater_1.wwu
     ParentPhysicalPath: Events\MX.wwu
     guid: 7116efb55eeda841b5c7c572a011149e
-    m_lastTime: -8586570867988074363
+    m_lastTime: -8586570842913453254
     List:
     - name: BlankEvent
       guid: 21f124be0ce1094e9a78f66c016a96b9
@@ -835,7 +835,7 @@ MonoBehaviour:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: b66a71869badb44a84cdf2219765a268
-    m_lastTime: -8586570941728744091
+    m_lastTime: -8586570842913443281
     List:
     - name: FadeIn
       guid: c9eaab7e507ce94fa775aee716b248fb
@@ -850,19 +850,19 @@ MonoBehaviour:
   - PhysicalPath: States\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: daa6f6b0517d984d86019b200914bba1
-    m_lastTime: -8586572252047255326
+    m_lastTime: -8586570842897356300
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: e18de585d2857c4e9a424bc1815150b9
-    m_lastTime: -8586572252047185521
+    m_lastTime: -8586570842897346335
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 2c8f59d90dd60143883856d413afca6e
-    m_lastTime: -8586572252047135655
+    m_lastTime: -8586570842897336360
     List: []
   ExpandedItems:
   - /VR TEST_WwiseProject
