@@ -29,6 +29,7 @@
 				<Property Name="Event Action List\{8FA65EF5-C234-41B2-B004-E4587D719315}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{91AB059B-2610-40A9-9D0E-6888684D17A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{938B93CC-4233-49D5-9F32-AD63EF01B45B}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{9C845836-C219-4C44-8D94-93B3A47D334B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9D1C6A74-7374-444B-A898-2DC349556A53}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{ADF3A13C-5E0C-4B0F-9F46-5D9378FD38B3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BE24F121-E10C-4E09-9A78-F66C016A96B9}\x64_Expand States" Type="string" Value=""/>
@@ -55,6 +56,7 @@
 				</Property>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="sYcpswrOnEKsEOj1NzPtAQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="Httw0EgdqkqzYzloJyc4xw=="/>

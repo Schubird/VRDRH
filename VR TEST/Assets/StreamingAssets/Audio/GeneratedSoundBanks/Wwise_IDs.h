@@ -37,6 +37,7 @@ namespace AK
         static const AkUniqueID PLAY_VRH_TAIK_STRINGSLEGA_120 = 912267708U;
         static const AkUniqueID PLAY_VRH_TAIK_TAILKOLOOPA_120 = 2081615060U;
         static const AkUniqueID PLAY_VRH_TAIK_TAILKOLOOPB_143 = 852315666U;
+        static const AkUniqueID PLAY_WHATS_THE_POINT9 = 2851737489U;
         static const AkUniqueID STOP_VRH_TAIK_ASTRINGSLOOP_120 = 105408428U;
         static const AkUniqueID STOP_VRH_TAIK_BASSA_120 = 3880093399U;
         static const AkUniqueID STOP_VRH_TAIK_BASSB_143 = 959595373U;

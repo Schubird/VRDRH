@@ -60,6 +60,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Gallery" ID="{13E8CFA8-55F9-48DF-9BA0-CD1D81CEB85D}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

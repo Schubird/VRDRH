@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{13E8CFA8-55F9-48DF-9BA0-CD1D81CEB85D}" SchemaVersion="89" RootDocumentID="{2CB24AFC-8FD1-47CD-999D-005D226F0B61}">
+	<Events>
+		<WorkUnit Name="Gallery" ID="{13E8CFA8-55F9-48DF-9BA0-CD1D81CEB85D}" OwnerID="{70C913CC-A0D7-4264-89F4-EFBC7DD62B34}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_whats_the_point9" ID="{9C845836-C219-4C44-8D94-93B3A47D334B}">
+					<ChildrenList>
+						<Action Name="" ID="{5B67F0A7-BFCE-4A2A-AC66-EFD53C46B5CE}" ShortID="555250352">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="whats_the_point9" ID="{BF962C5E-F89D-4D12-8E47-1C6740705038}" WorkUnitID="{DA0C8C09-4FF9-4DE5-AC7B-F12CE65F3965}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -20,6 +20,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2047931711	Play_VRH_Taik_IntroStringsLoop_120			\Default Work Unit\MX\Theater_1\IntroSection\Play_VRH_Taik_IntroStringsLoop_120	
 	2081615060	Play_VRH_Taik_TailkoLoopA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120	
 	2580965139	Stop_VRH_Taik_CelloA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_CelloA_120	
+	2851737489	Play_whats_the_point9			\Default Work Unit\MX\Gallery\Play_whats_the_point9	
 	2889679211	BlankEvent			\Default Work Unit\MX\Theater_1\BlankEvent	
 	2956245481	Play_Horn			\Default Work Unit\MX\Play_Horn	
 	3043520462	Stop_VRH_Taik_StringsLegA_120			\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_StringsLegA_120	
@@ -61,6 +62,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	667597574	VRH_Taik_BStringsLoop_143	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\VRH_Taik_BStringsLoop_143_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\BSection\PluckedStrings\VRH_Taik_BStringsLoop_143		2368512
 	694503596	VRH_Taik_IntroKoto_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\VRH_Taik_IntroKoto_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\IntroSection\Koto\VRH_Taik_IntroKoto_120		1411264
 	695469826	melody	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\melody_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\Lobby\melody		9768700
+	732007844	whats_the_point9	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\whats_the_point9_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\Gallery\whats_the_point9		9984064
 	773983522	guitarloop	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\guitarloop_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\LobbyGuitar\Gutiar\guitarloop\guitarloop		3386948
 	783795774	synth	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\synth_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\Lobby\synth		9768700
 	912444439	VRH_Taik_CelloA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\VRH_Taik_CelloA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\Cello\VRH_Taik_CelloA_120		2822464

@@ -853,6 +853,37 @@
 						</Sound>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Gallery" ID="{953AF4F9-6BA1-4363-984B-E732BD6FC8C8}" ShortID="171092511">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="whats_the_point9" ID="{BF962C5E-F89D-4D12-8E47-1C6740705038}" ShortID="541094302">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7802DA55-7F32-4F91-87B3-75B1A02C2B5D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="whats_the_point9" ID="{E4A1D844-02C6-4E6F-93D6-6ECB96D6FB10}" ShortID="732007844">
+									<Language>SFX</Language>
+									<AudioFile>whats_the_point9.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="whats_the_point9" ID="{E4A1D844-02C6-4E6F-93D6-6ECB96D6FB10}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
