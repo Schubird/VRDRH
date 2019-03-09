@@ -115,6 +115,7 @@ namespace VRTK.Controllables.PhysicsBased
         {
             float currentValue = transform.localEulerAngles[(int)operateAxis];
             return Quaternion.Angle(transform.localRotation, originalLocalRotation) * Mathf.Sign((currentValue > 180f ? currentValue - 360f : currentValue));
+            
         }
 
         /// <summary>
@@ -217,8 +218,11 @@ namespace VRTK.Controllables.PhysicsBased
                 Gizmos.DrawLine(hingeStart, hingeEnd);
                 Gizmos.DrawSphere(hingeStart, 0.01f);
                 Gizmos.DrawSphere(hingeEnd, 0.01f);
+
             }
+            
         }
+
 
         protected override void OnEnable()
         {

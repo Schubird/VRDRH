@@ -42,6 +42,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4158975229	Play_VRH_Taik_CelloA_120			\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_CelloA_120	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	1240670792	distance			\Default Work Unit\distance	
 	2561444246	FadeIn			\Default Work Unit\FadeIn	
 	2782712987	lever			\Default Work Unit\lever	
 

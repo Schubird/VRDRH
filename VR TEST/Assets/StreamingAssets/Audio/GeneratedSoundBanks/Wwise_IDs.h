@@ -58,6 +58,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID DISTANCE = 1240670792U;
         static const AkUniqueID FADEIN = 2561444246U;
         static const AkUniqueID LEVER = 2782712987U;
     } // namespace GAME_PARAMETERS

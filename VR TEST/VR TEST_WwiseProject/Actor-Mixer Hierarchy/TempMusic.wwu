@@ -866,6 +866,44 @@
 						<Sound Name="whats_the_point9" ID="{BF962C5E-F89D-4D12-8E47-1C6740705038}" ShortID="541094302">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{0D8601B4-423C-4C16-815F-8DAB53D86FE4}" ShortID="1005114211">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="distance" ID="{5DCCDA24-4320-4A59-81BA-5514DCA21288}" WorkUnitID="{86716AB6-AD9B-4AB4-84CD-F2219765A268}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{58B829E1-28F7-40C9-BB3F-48A06504233E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-2</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>5.01458</XPos>
+														<YPos>-1</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>7.49221</XPos>
+														<YPos>35</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>63</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<RTPCList>
