@@ -6,6 +6,10 @@
 				<SoundcasterSession Name="test1" ID="{946D0803-75AC-467E-A25B-A19EC33D5D2F}">
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="lever" ID="{DE54EF90-F421-4D53-BD95-6B225FE58BFF}"/>
+							<Value>9.92685475444096</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="FadeIn" ID="{7EABEAC9-7C50-4FE9-A775-AEE716B248FB}"/>
 							<Value>10</Value>
 						</RTPCValue>

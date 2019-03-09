@@ -864,7 +864,42 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="whats_the_point9" ID="{BF962C5E-F89D-4D12-8E47-1C6740705038}" ShortID="541094302">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{8F03AAE5-EDBE-4E2F-B599-103A7C7FA1C2}" ShortID="1048000225">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="lever" ID="{DE54EF90-F421-4D53-BD95-6B225FE58BFF}" WorkUnitID="{86716AB6-AD9B-4AB4-84CD-F2219765A268}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{36D4A38C-F097-43D5-9B7C-D492B4CEFD99}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-4800</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lobby" ID="{70856A4E-9DBE-43D6-9FD3-51AC3744BBCE}" WorkUnitID="{52729D63-E219-4F10-AEFD-8112BEAF5B49}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8100411B-3CB3-44EA-BFF0-D338FC10A6DE}"/>
 								</Reference>

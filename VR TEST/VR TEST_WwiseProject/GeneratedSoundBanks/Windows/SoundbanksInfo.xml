@@ -45,7 +45,7 @@
 				<Event Id="912267708" Name="Play_VRH_Taik_StringsLegA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_StringsLegA_120" MaxAttenuation="25.000000"/>
 				<Event Id="2081615060" Name="Play_VRH_Taik_TailkoLoopA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\Play_VRH_Taik_TailkoLoopA_120" MaxAttenuation="25.000000"/>
 				<Event Id="852315666" Name="Play_VRH_Taik_TailkoLoopB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\Play_VRH_Taik_TailkoLoopB_143" MaxAttenuation="25.000000"/>
-				<Event Id="2851737489" Name="Play_whats_the_point9" ObjectPath="\Events\Default Work Unit\MX\Gallery\Play_whats_the_point9"/>
+				<Event Id="2851737489" Name="Play_whats_the_point9" ObjectPath="\Events\Default Work Unit\MX\Gallery\Play_whats_the_point9" MaxAttenuation="100.000000"/>
 				<Event Id="105408428" Name="Stop_VRH_Taik_AStringsLoop_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_AStringsLoop_120" MaxAttenuation="0.000000"/>
 				<Event Id="3880093399" Name="Stop_VRH_Taik_BassA_120" ObjectPath="\Events\Default Work Unit\MX\Theater_1\ASection\ASectionStop\Stop_VRH_Taik_BassA_120" MaxAttenuation="0.000000"/>
 				<Event Id="959595373" Name="Stop_VRH_Taik_BassB_143" ObjectPath="\Events\Default Work Unit\MX\Theater_1\BSection\BSectionStop\Stop_VRH_Taik_BassB_143" MaxAttenuation="0.000000"/>

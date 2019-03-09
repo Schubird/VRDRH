@@ -43,6 +43,7 @@ Event	ID	Name			Wwise Object Path	Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2561444246	FadeIn			\Default Work Unit\FadeIn	
+	2782712987	lever			\Default Work Unit\lever	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	56155337	VRH_Taik_StringsLegA_120	D:\Github\VRDRH\VR TEST\VR TEST_WwiseProject\.cache\Mac\SFX\VRH_Taik_StringsLegA_120_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\TempMusic\ASection\LegStrings\VRH_Taik_StringsLegA_120		2822464
